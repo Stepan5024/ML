@@ -1,0 +1,3087 @@
+{
+  "build": "py310haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "argon2-cffi",
+    "ipykernel",
+    "ipython_genutils",
+    "jinja2",
+    "jupyter_client >=5.3.4",
+    "jupyter_core >=4.6.1",
+    "nbclassic >=0.4.7",
+    "nbconvert >=5",
+    "nbformat",
+    "nest-asyncio >=1.5",
+    "prometheus_client",
+    "python >=3.10,<3.11.0a0",
+    "pyzmq >=17",
+    "send2trash >=1.8.0",
+    "terminado >=0.8.3",
+    "tornado >=6.1",
+    "traitlets >=4.2.1"
+  ],
+  "extracted_package_dir": "C:\\Users\\bokar\\miniconda3\\pkgs\\notebook-6.5.2-py310haa95532_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/notebook-6.5.2.dist-info/INSTALLER",
+    "Lib/site-packages/notebook-6.5.2.dist-info/LICENSE",
+    "Lib/site-packages/notebook-6.5.2.dist-info/METADATA",
+    "Lib/site-packages/notebook-6.5.2.dist-info/RECORD",
+    "Lib/site-packages/notebook-6.5.2.dist-info/REQUESTED",
+    "Lib/site-packages/notebook-6.5.2.dist-info/WHEEL",
+    "Lib/site-packages/notebook-6.5.2.dist-info/direct_url.json",
+    "Lib/site-packages/notebook-6.5.2.dist-info/entry_points.txt",
+    "Lib/site-packages/notebook-6.5.2.dist-info/top_level.txt",
+    "Lib/site-packages/notebook/__init__.py",
+    "Lib/site-packages/notebook/__main__.py",
+    "Lib/site-packages/notebook/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/notebook/__pycache__/__main__.cpython-310.pyc",
+    "Lib/site-packages/notebook/__pycache__/_sysinfo.cpython-310.pyc",
+    "Lib/site-packages/notebook/__pycache__/_tz.cpython-310.pyc",
+    "Lib/site-packages/notebook/__pycache__/_version.cpython-310.pyc",
+    "Lib/site-packages/notebook/__pycache__/config_manager.cpython-310.pyc",
+    "Lib/site-packages/notebook/__pycache__/extensions.cpython-310.pyc",
+    "Lib/site-packages/notebook/__pycache__/jstest.cpython-310.pyc",
+    "Lib/site-packages/notebook/__pycache__/log.cpython-310.pyc",
+    "Lib/site-packages/notebook/__pycache__/nbextensions.cpython-310.pyc",
+    "Lib/site-packages/notebook/__pycache__/notebookapp.cpython-310.pyc",
+    "Lib/site-packages/notebook/__pycache__/serverextensions.cpython-310.pyc",
+    "Lib/site-packages/notebook/__pycache__/traittypes.cpython-310.pyc",
+    "Lib/site-packages/notebook/__pycache__/transutils.cpython-310.pyc",
+    "Lib/site-packages/notebook/__pycache__/utils.cpython-310.pyc",
+    "Lib/site-packages/notebook/_sysinfo.py",
+    "Lib/site-packages/notebook/_tz.py",
+    "Lib/site-packages/notebook/_version.py",
+    "Lib/site-packages/notebook/auth/__init__.py",
+    "Lib/site-packages/notebook/auth/__main__.py",
+    "Lib/site-packages/notebook/auth/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/notebook/auth/__pycache__/__main__.cpython-310.pyc",
+    "Lib/site-packages/notebook/auth/__pycache__/login.cpython-310.pyc",
+    "Lib/site-packages/notebook/auth/__pycache__/logout.cpython-310.pyc",
+    "Lib/site-packages/notebook/auth/__pycache__/security.cpython-310.pyc",
+    "Lib/site-packages/notebook/auth/login.py",
+    "Lib/site-packages/notebook/auth/logout.py",
+    "Lib/site-packages/notebook/auth/security.py",
+    "Lib/site-packages/notebook/auth/tests/__init__.py",
+    "Lib/site-packages/notebook/auth/tests/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/notebook/auth/tests/__pycache__/test_login.cpython-310.pyc",
+    "Lib/site-packages/notebook/auth/tests/__pycache__/test_security.cpython-310.pyc",
+    "Lib/site-packages/notebook/auth/tests/test_login.py",
+    "Lib/site-packages/notebook/auth/tests/test_security.py",
+    "Lib/site-packages/notebook/base/__init__.py",
+    "Lib/site-packages/notebook/base/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/notebook/base/__pycache__/handlers.cpython-310.pyc",
+    "Lib/site-packages/notebook/base/__pycache__/zmqhandlers.cpython-310.pyc",
+    "Lib/site-packages/notebook/base/handlers.py",
+    "Lib/site-packages/notebook/base/zmqhandlers.py",
+    "Lib/site-packages/notebook/bundler/__init__.py",
+    "Lib/site-packages/notebook/bundler/__main__.py",
+    "Lib/site-packages/notebook/bundler/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/notebook/bundler/__pycache__/__main__.cpython-310.pyc",
+    "Lib/site-packages/notebook/bundler/__pycache__/bundlerextensions.cpython-310.pyc",
+    "Lib/site-packages/notebook/bundler/__pycache__/handlers.cpython-310.pyc",
+    "Lib/site-packages/notebook/bundler/__pycache__/tarball_bundler.cpython-310.pyc",
+    "Lib/site-packages/notebook/bundler/__pycache__/tools.cpython-310.pyc",
+    "Lib/site-packages/notebook/bundler/__pycache__/zip_bundler.cpython-310.pyc",
+    "Lib/site-packages/notebook/bundler/bundlerextensions.py",
+    "Lib/site-packages/notebook/bundler/handlers.py",
+    "Lib/site-packages/notebook/bundler/tarball_bundler.py",
+    "Lib/site-packages/notebook/bundler/tests/__init__.py",
+    "Lib/site-packages/notebook/bundler/tests/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/notebook/bundler/tests/__pycache__/test_bundler_api.cpython-310.pyc",
+    "Lib/site-packages/notebook/bundler/tests/__pycache__/test_bundler_tools.cpython-310.pyc",
+    "Lib/site-packages/notebook/bundler/tests/__pycache__/test_bundlerextension.cpython-310.pyc",
+    "Lib/site-packages/notebook/bundler/tests/resources/another_subdir/test_file.txt",
+    "Lib/site-packages/notebook/bundler/tests/resources/empty.ipynb",
+    "Lib/site-packages/notebook/bundler/tests/resources/subdir/subsubdir/.gitkeep",
+    "Lib/site-packages/notebook/bundler/tests/resources/subdir/test_file.txt",
+    "Lib/site-packages/notebook/bundler/tests/test_bundler_api.py",
+    "Lib/site-packages/notebook/bundler/tests/test_bundler_tools.py",
+    "Lib/site-packages/notebook/bundler/tests/test_bundlerextension.py",
+    "Lib/site-packages/notebook/bundler/tools.py",
+    "Lib/site-packages/notebook/bundler/zip_bundler.py",
+    "Lib/site-packages/notebook/config_manager.py",
+    "Lib/site-packages/notebook/edit/__init__.py",
+    "Lib/site-packages/notebook/edit/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/notebook/edit/__pycache__/handlers.cpython-310.pyc",
+    "Lib/site-packages/notebook/edit/handlers.py",
+    "Lib/site-packages/notebook/extensions.py",
+    "Lib/site-packages/notebook/files/__init__.py",
+    "Lib/site-packages/notebook/files/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/notebook/files/__pycache__/handlers.cpython-310.pyc",
+    "Lib/site-packages/notebook/files/handlers.py",
+    "Lib/site-packages/notebook/gateway/__init__.py",
+    "Lib/site-packages/notebook/gateway/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/notebook/gateway/__pycache__/handlers.cpython-310.pyc",
+    "Lib/site-packages/notebook/gateway/__pycache__/managers.cpython-310.pyc",
+    "Lib/site-packages/notebook/gateway/handlers.py",
+    "Lib/site-packages/notebook/gateway/managers.py",
+    "Lib/site-packages/notebook/i18n/__init__.py",
+    "Lib/site-packages/notebook/i18n/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/notebook/i18n/fr_FR/LC_MESSAGES/nbjs.po",
+    "Lib/site-packages/notebook/i18n/fr_FR/LC_MESSAGES/nbui.po",
+    "Lib/site-packages/notebook/i18n/fr_FR/LC_MESSAGES/notebook.po",
+    "Lib/site-packages/notebook/i18n/ja_JP/LC_MESSAGES/nbjs.po",
+    "Lib/site-packages/notebook/i18n/ja_JP/LC_MESSAGES/nbui.po",
+    "Lib/site-packages/notebook/i18n/ja_JP/LC_MESSAGES/notebook.po",
+    "Lib/site-packages/notebook/i18n/nl/LC_MESSAGES/nbjs.json",
+    "Lib/site-packages/notebook/i18n/nl/LC_MESSAGES/nbjs.po",
+    "Lib/site-packages/notebook/i18n/nl/LC_MESSAGES/nbui.mo",
+    "Lib/site-packages/notebook/i18n/nl/LC_MESSAGES/nbui.po",
+    "Lib/site-packages/notebook/i18n/nl/LC_MESSAGES/notebook.mo",
+    "Lib/site-packages/notebook/i18n/nl/LC_MESSAGES/notebook.po",
+    "Lib/site-packages/notebook/i18n/ru_RU/LC_MESSAGES/nbjs.po",
+    "Lib/site-packages/notebook/i18n/ru_RU/LC_MESSAGES/nbui.po",
+    "Lib/site-packages/notebook/i18n/ru_RU/LC_MESSAGES/notebook.po",
+    "Lib/site-packages/notebook/i18n/zh_CN/LC_MESSAGES/nbjs.po",
+    "Lib/site-packages/notebook/i18n/zh_CN/LC_MESSAGES/nbui.po",
+    "Lib/site-packages/notebook/i18n/zh_CN/LC_MESSAGES/notebook.po",
+    "Lib/site-packages/notebook/jstest.py",
+    "Lib/site-packages/notebook/kernelspecs/__init__.py",
+    "Lib/site-packages/notebook/kernelspecs/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/notebook/kernelspecs/__pycache__/handlers.cpython-310.pyc",
+    "Lib/site-packages/notebook/kernelspecs/handlers.py",
+    "Lib/site-packages/notebook/log.py",
+    "Lib/site-packages/notebook/nbconvert/__init__.py",
+    "Lib/site-packages/notebook/nbconvert/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/notebook/nbconvert/__pycache__/handlers.cpython-310.pyc",
+    "Lib/site-packages/notebook/nbconvert/handlers.py",
+    "Lib/site-packages/notebook/nbconvert/tests/__init__.py",
+    "Lib/site-packages/notebook/nbconvert/tests/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/notebook/nbconvert/tests/__pycache__/test_nbconvert_handlers.cpython-310.pyc",
+    "Lib/site-packages/notebook/nbconvert/tests/test_nbconvert_handlers.py",
+    "Lib/site-packages/notebook/nbextensions.py",
+    "Lib/site-packages/notebook/notebook/__init__.py",
+    "Lib/site-packages/notebook/notebook/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/notebook/notebook/__pycache__/handlers.cpython-310.pyc",
+    "Lib/site-packages/notebook/notebook/handlers.py",
+    "Lib/site-packages/notebook/notebookapp.py",
+    "Lib/site-packages/notebook/prometheus/__init__.py",
+    "Lib/site-packages/notebook/prometheus/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/notebook/prometheus/__pycache__/log_functions.cpython-310.pyc",
+    "Lib/site-packages/notebook/prometheus/__pycache__/metrics.cpython-310.pyc",
+    "Lib/site-packages/notebook/prometheus/log_functions.py",
+    "Lib/site-packages/notebook/prometheus/metrics.py",
+    "Lib/site-packages/notebook/serverextensions.py",
+    "Lib/site-packages/notebook/services/__init__.py",
+    "Lib/site-packages/notebook/services/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/notebook/services/__pycache__/shutdown.cpython-310.pyc",
+    "Lib/site-packages/notebook/services/api/__init__.py",
+    "Lib/site-packages/notebook/services/api/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/notebook/services/api/__pycache__/handlers.cpython-310.pyc",
+    "Lib/site-packages/notebook/services/api/api.yaml",
+    "Lib/site-packages/notebook/services/api/handlers.py",
+    "Lib/site-packages/notebook/services/api/tests/__init__.py",
+    "Lib/site-packages/notebook/services/api/tests/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/notebook/services/api/tests/__pycache__/test_api.cpython-310.pyc",
+    "Lib/site-packages/notebook/services/api/tests/test_api.py",
+    "Lib/site-packages/notebook/services/config/__init__.py",
+    "Lib/site-packages/notebook/services/config/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/notebook/services/config/__pycache__/handlers.cpython-310.pyc",
+    "Lib/site-packages/notebook/services/config/__pycache__/manager.cpython-310.pyc",
+    "Lib/site-packages/notebook/services/config/handlers.py",
+    "Lib/site-packages/notebook/services/config/manager.py",
+    "Lib/site-packages/notebook/services/config/tests/__init__.py",
+    "Lib/site-packages/notebook/services/config/tests/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/notebook/services/config/tests/__pycache__/test_config_api.cpython-310.pyc",
+    "Lib/site-packages/notebook/services/config/tests/test_config_api.py",
+    "Lib/site-packages/notebook/services/contents/__init__.py",
+    "Lib/site-packages/notebook/services/contents/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/notebook/services/contents/__pycache__/checkpoints.cpython-310.pyc",
+    "Lib/site-packages/notebook/services/contents/__pycache__/filecheckpoints.cpython-310.pyc",
+    "Lib/site-packages/notebook/services/contents/__pycache__/fileio.cpython-310.pyc",
+    "Lib/site-packages/notebook/services/contents/__pycache__/filemanager.cpython-310.pyc",
+    "Lib/site-packages/notebook/services/contents/__pycache__/handlers.cpython-310.pyc",
+    "Lib/site-packages/notebook/services/contents/__pycache__/largefilemanager.cpython-310.pyc",
+    "Lib/site-packages/notebook/services/contents/__pycache__/manager.cpython-310.pyc",
+    "Lib/site-packages/notebook/services/contents/checkpoints.py",
+    "Lib/site-packages/notebook/services/contents/filecheckpoints.py",
+    "Lib/site-packages/notebook/services/contents/fileio.py",
+    "Lib/site-packages/notebook/services/contents/filemanager.py",
+    "Lib/site-packages/notebook/services/contents/handlers.py",
+    "Lib/site-packages/notebook/services/contents/largefilemanager.py",
+    "Lib/site-packages/notebook/services/contents/manager.py",
+    "Lib/site-packages/notebook/services/contents/tests/__init__.py",
+    "Lib/site-packages/notebook/services/contents/tests/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/notebook/services/contents/tests/__pycache__/test_contents_api.cpython-310.pyc",
+    "Lib/site-packages/notebook/services/contents/tests/__pycache__/test_fileio.cpython-310.pyc",
+    "Lib/site-packages/notebook/services/contents/tests/__pycache__/test_largefilemanager.cpython-310.pyc",
+    "Lib/site-packages/notebook/services/contents/tests/__pycache__/test_manager.cpython-310.pyc",
+    "Lib/site-packages/notebook/services/contents/tests/test_contents_api.py",
+    "Lib/site-packages/notebook/services/contents/tests/test_fileio.py",
+    "Lib/site-packages/notebook/services/contents/tests/test_largefilemanager.py",
+    "Lib/site-packages/notebook/services/contents/tests/test_manager.py",
+    "Lib/site-packages/notebook/services/kernels/__init__.py",
+    "Lib/site-packages/notebook/services/kernels/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/notebook/services/kernels/__pycache__/handlers.cpython-310.pyc",
+    "Lib/site-packages/notebook/services/kernels/__pycache__/kernelmanager.cpython-310.pyc",
+    "Lib/site-packages/notebook/services/kernels/handlers.py",
+    "Lib/site-packages/notebook/services/kernels/kernelmanager.py",
+    "Lib/site-packages/notebook/services/kernels/tests/__init__.py",
+    "Lib/site-packages/notebook/services/kernels/tests/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/notebook/services/kernels/tests/__pycache__/test_kernels_api.cpython-310.pyc",
+    "Lib/site-packages/notebook/services/kernels/tests/test_kernels_api.py",
+    "Lib/site-packages/notebook/services/kernelspecs/__init__.py",
+    "Lib/site-packages/notebook/services/kernelspecs/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/notebook/services/kernelspecs/__pycache__/handlers.cpython-310.pyc",
+    "Lib/site-packages/notebook/services/kernelspecs/handlers.py",
+    "Lib/site-packages/notebook/services/kernelspecs/tests/__init__.py",
+    "Lib/site-packages/notebook/services/kernelspecs/tests/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/notebook/services/kernelspecs/tests/__pycache__/test_kernelspecs_api.cpython-310.pyc",
+    "Lib/site-packages/notebook/services/kernelspecs/tests/test_kernelspecs_api.py",
+    "Lib/site-packages/notebook/services/nbconvert/__init__.py",
+    "Lib/site-packages/notebook/services/nbconvert/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/notebook/services/nbconvert/__pycache__/handlers.cpython-310.pyc",
+    "Lib/site-packages/notebook/services/nbconvert/handlers.py",
+    "Lib/site-packages/notebook/services/nbconvert/tests/__init__.py",
+    "Lib/site-packages/notebook/services/nbconvert/tests/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/notebook/services/nbconvert/tests/__pycache__/test_nbconvert_api.cpython-310.pyc",
+    "Lib/site-packages/notebook/services/nbconvert/tests/test_nbconvert_api.py",
+    "Lib/site-packages/notebook/services/security/__init__.py",
+    "Lib/site-packages/notebook/services/security/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/notebook/services/security/__pycache__/handlers.cpython-310.pyc",
+    "Lib/site-packages/notebook/services/security/handlers.py",
+    "Lib/site-packages/notebook/services/sessions/__init__.py",
+    "Lib/site-packages/notebook/services/sessions/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/notebook/services/sessions/__pycache__/handlers.cpython-310.pyc",
+    "Lib/site-packages/notebook/services/sessions/__pycache__/sessionmanager.cpython-310.pyc",
+    "Lib/site-packages/notebook/services/sessions/handlers.py",
+    "Lib/site-packages/notebook/services/sessions/sessionmanager.py",
+    "Lib/site-packages/notebook/services/sessions/tests/__init__.py",
+    "Lib/site-packages/notebook/services/sessions/tests/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/notebook/services/sessions/tests/__pycache__/test_sessionmanager.cpython-310.pyc",
+    "Lib/site-packages/notebook/services/sessions/tests/__pycache__/test_sessions_api.cpython-310.pyc",
+    "Lib/site-packages/notebook/services/sessions/tests/test_sessionmanager.py",
+    "Lib/site-packages/notebook/services/sessions/tests/test_sessions_api.py",
+    "Lib/site-packages/notebook/services/shutdown.py",
+    "Lib/site-packages/notebook/templates/404.html",
+    "Lib/site-packages/notebook/templates/browser-open.html",
+    "Lib/site-packages/notebook/templates/edit.html",
+    "Lib/site-packages/notebook/templates/error.html",
+    "Lib/site-packages/notebook/templates/login.html",
+    "Lib/site-packages/notebook/templates/logout.html",
+    "Lib/site-packages/notebook/templates/notebook.html",
+    "Lib/site-packages/notebook/templates/page.html",
+    "Lib/site-packages/notebook/templates/terminal.html",
+    "Lib/site-packages/notebook/templates/tree.html",
+    "Lib/site-packages/notebook/templates/view.html",
+    "Lib/site-packages/notebook/terminal/__init__.py",
+    "Lib/site-packages/notebook/terminal/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/notebook/terminal/__pycache__/api_handlers.cpython-310.pyc",
+    "Lib/site-packages/notebook/terminal/__pycache__/handlers.cpython-310.pyc",
+    "Lib/site-packages/notebook/terminal/__pycache__/terminalmanager.cpython-310.pyc",
+    "Lib/site-packages/notebook/terminal/api_handlers.py",
+    "Lib/site-packages/notebook/terminal/handlers.py",
+    "Lib/site-packages/notebook/terminal/terminalmanager.py",
+    "Lib/site-packages/notebook/terminal/tests/__init__.py",
+    "Lib/site-packages/notebook/terminal/tests/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/notebook/terminal/tests/__pycache__/test_terminals_api.cpython-310.pyc",
+    "Lib/site-packages/notebook/terminal/tests/test_terminals_api.py",
+    "Lib/site-packages/notebook/tests/__init__.py",
+    "Lib/site-packages/notebook/tests/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/notebook/tests/__pycache__/conftest.cpython-310.pyc",
+    "Lib/site-packages/notebook/tests/__pycache__/launchnotebook.cpython-310.pyc",
+    "Lib/site-packages/notebook/tests/__pycache__/test_config_manager.cpython-310.pyc",
+    "Lib/site-packages/notebook/tests/__pycache__/test_files.cpython-310.pyc",
+    "Lib/site-packages/notebook/tests/__pycache__/test_gateway.cpython-310.pyc",
+    "Lib/site-packages/notebook/tests/__pycache__/test_i18n.cpython-310.pyc",
+    "Lib/site-packages/notebook/tests/__pycache__/test_log.cpython-310.pyc",
+    "Lib/site-packages/notebook/tests/__pycache__/test_nbextensions.cpython-310.pyc",
+    "Lib/site-packages/notebook/tests/__pycache__/test_notebookapp.cpython-310.pyc",
+    "Lib/site-packages/notebook/tests/__pycache__/test_notebookapp_integration.cpython-310.pyc",
+    "Lib/site-packages/notebook/tests/__pycache__/test_paths.cpython-310.pyc",
+    "Lib/site-packages/notebook/tests/__pycache__/test_serialize.cpython-310.pyc",
+    "Lib/site-packages/notebook/tests/__pycache__/test_serverextensions.cpython-310.pyc",
+    "Lib/site-packages/notebook/tests/__pycache__/test_traittypes.cpython-310.pyc",
+    "Lib/site-packages/notebook/tests/__pycache__/test_utils.cpython-310.pyc",
+    "Lib/site-packages/notebook/tests/conftest.py",
+    "Lib/site-packages/notebook/tests/launchnotebook.py",
+    "Lib/site-packages/notebook/tests/selenium/__init__.py",
+    "Lib/site-packages/notebook/tests/selenium/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/notebook/tests/selenium/__pycache__/conftest.cpython-310.pyc",
+    "Lib/site-packages/notebook/tests/selenium/__pycache__/quick_selenium.cpython-310.pyc",
+    "Lib/site-packages/notebook/tests/selenium/__pycache__/test_buffering.cpython-310.pyc",
+    "Lib/site-packages/notebook/tests/selenium/__pycache__/test_clipboard_multiselect.cpython-310.pyc",
+    "Lib/site-packages/notebook/tests/selenium/__pycache__/test_dashboard_nav.cpython-310.pyc",
+    "Lib/site-packages/notebook/tests/selenium/__pycache__/test_deletecell.cpython-310.pyc",
+    "Lib/site-packages/notebook/tests/selenium/__pycache__/test_display_image.cpython-310.pyc",
+    "Lib/site-packages/notebook/tests/selenium/__pycache__/test_display_isolation.cpython-310.pyc",
+    "Lib/site-packages/notebook/tests/selenium/__pycache__/test_dualmode_arrows.cpython-310.pyc",
+    "Lib/site-packages/notebook/tests/selenium/__pycache__/test_dualmode_cellmode.cpython-310.pyc",
+    "Lib/site-packages/notebook/tests/selenium/__pycache__/test_dualmode_clipboard.cpython-310.pyc",
+    "Lib/site-packages/notebook/tests/selenium/__pycache__/test_dualmode_execute.cpython-310.pyc",
+    "Lib/site-packages/notebook/tests/selenium/__pycache__/test_dualmode_insertcell.cpython-310.pyc",
+    "Lib/site-packages/notebook/tests/selenium/__pycache__/test_dualmode_markdown.cpython-310.pyc",
+    "Lib/site-packages/notebook/tests/selenium/__pycache__/test_execute_code.cpython-310.pyc",
+    "Lib/site-packages/notebook/tests/selenium/__pycache__/test_find_and_replace.cpython-310.pyc",
+    "Lib/site-packages/notebook/tests/selenium/__pycache__/test_interrupt.cpython-310.pyc",
+    "Lib/site-packages/notebook/tests/selenium/__pycache__/test_kernel_menu.cpython-310.pyc",
+    "Lib/site-packages/notebook/tests/selenium/__pycache__/test_markdown.cpython-310.pyc",
+    "Lib/site-packages/notebook/tests/selenium/__pycache__/test_merge_cells.cpython-310.pyc",
+    "Lib/site-packages/notebook/tests/selenium/__pycache__/test_move_multiselection.cpython-310.pyc",
+    "Lib/site-packages/notebook/tests/selenium/__pycache__/test_multiselect.cpython-310.pyc",
+    "Lib/site-packages/notebook/tests/selenium/__pycache__/test_multiselect_toggle.cpython-310.pyc",
+    "Lib/site-packages/notebook/tests/selenium/__pycache__/test_notifications.cpython-310.pyc",
+    "Lib/site-packages/notebook/tests/selenium/__pycache__/test_prompt_numbers.cpython-310.pyc",
+    "Lib/site-packages/notebook/tests/selenium/__pycache__/test_save.cpython-310.pyc",
+    "Lib/site-packages/notebook/tests/selenium/__pycache__/test_save_as_notebook.cpython-310.pyc",
+    "Lib/site-packages/notebook/tests/selenium/__pycache__/test_save_readonly_as.cpython-310.pyc",
+    "Lib/site-packages/notebook/tests/selenium/__pycache__/test_shutdown.cpython-310.pyc",
+    "Lib/site-packages/notebook/tests/selenium/__pycache__/test_undelete.cpython-310.pyc",
+    "Lib/site-packages/notebook/tests/selenium/__pycache__/utils.cpython-310.pyc",
+    "Lib/site-packages/notebook/tests/selenium/conftest.py",
+    "Lib/site-packages/notebook/tests/selenium/quick_selenium.py",
+    "Lib/site-packages/notebook/tests/selenium/test_buffering.py",
+    "Lib/site-packages/notebook/tests/selenium/test_clipboard_multiselect.py",
+    "Lib/site-packages/notebook/tests/selenium/test_dashboard_nav.py",
+    "Lib/site-packages/notebook/tests/selenium/test_deletecell.py",
+    "Lib/site-packages/notebook/tests/selenium/test_display_image.py",
+    "Lib/site-packages/notebook/tests/selenium/test_display_isolation.py",
+    "Lib/site-packages/notebook/tests/selenium/test_dualmode_arrows.py",
+    "Lib/site-packages/notebook/tests/selenium/test_dualmode_cellmode.py",
+    "Lib/site-packages/notebook/tests/selenium/test_dualmode_clipboard.py",
+    "Lib/site-packages/notebook/tests/selenium/test_dualmode_execute.py",
+    "Lib/site-packages/notebook/tests/selenium/test_dualmode_insertcell.py",
+    "Lib/site-packages/notebook/tests/selenium/test_dualmode_markdown.py",
+    "Lib/site-packages/notebook/tests/selenium/test_execute_code.py",
+    "Lib/site-packages/notebook/tests/selenium/test_find_and_replace.py",
+    "Lib/site-packages/notebook/tests/selenium/test_interrupt.py",
+    "Lib/site-packages/notebook/tests/selenium/test_kernel_menu.py",
+    "Lib/site-packages/notebook/tests/selenium/test_markdown.py",
+    "Lib/site-packages/notebook/tests/selenium/test_merge_cells.py",
+    "Lib/site-packages/notebook/tests/selenium/test_move_multiselection.py",
+    "Lib/site-packages/notebook/tests/selenium/test_multiselect.py",
+    "Lib/site-packages/notebook/tests/selenium/test_multiselect_toggle.py",
+    "Lib/site-packages/notebook/tests/selenium/test_notifications.py",
+    "Lib/site-packages/notebook/tests/selenium/test_prompt_numbers.py",
+    "Lib/site-packages/notebook/tests/selenium/test_save.py",
+    "Lib/site-packages/notebook/tests/selenium/test_save_as_notebook.py",
+    "Lib/site-packages/notebook/tests/selenium/test_save_readonly_as.py",
+    "Lib/site-packages/notebook/tests/selenium/test_shutdown.py",
+    "Lib/site-packages/notebook/tests/selenium/test_undelete.py",
+    "Lib/site-packages/notebook/tests/selenium/utils.py",
+    "Lib/site-packages/notebook/tests/test_config_manager.py",
+    "Lib/site-packages/notebook/tests/test_files.py",
+    "Lib/site-packages/notebook/tests/test_gateway.py",
+    "Lib/site-packages/notebook/tests/test_i18n.py",
+    "Lib/site-packages/notebook/tests/test_log.py",
+    "Lib/site-packages/notebook/tests/test_nbextensions.py",
+    "Lib/site-packages/notebook/tests/test_notebookapp.py",
+    "Lib/site-packages/notebook/tests/test_notebookapp_integration.py",
+    "Lib/site-packages/notebook/tests/test_paths.py",
+    "Lib/site-packages/notebook/tests/test_serialize.py",
+    "Lib/site-packages/notebook/tests/test_serverextensions.py",
+    "Lib/site-packages/notebook/tests/test_traittypes.py",
+    "Lib/site-packages/notebook/tests/test_utils.py",
+    "Lib/site-packages/notebook/traittypes.py",
+    "Lib/site-packages/notebook/transutils.py",
+    "Lib/site-packages/notebook/tree/__init__.py",
+    "Lib/site-packages/notebook/tree/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/notebook/tree/__pycache__/handlers.cpython-310.pyc",
+    "Lib/site-packages/notebook/tree/handlers.py",
+    "Lib/site-packages/notebook/tree/tests/__init__.py",
+    "Lib/site-packages/notebook/tree/tests/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/notebook/tree/tests/__pycache__/handlers.cpython-310.pyc",
+    "Lib/site-packages/notebook/tree/tests/__pycache__/test_tree_handler.cpython-310.pyc",
+    "Lib/site-packages/notebook/tree/tests/handlers.py",
+    "Lib/site-packages/notebook/tree/tests/test_tree_handler.py",
+    "Lib/site-packages/notebook/utils.py",
+    "Lib/site-packages/notebook/view/__init__.py",
+    "Lib/site-packages/notebook/view/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/notebook/view/__pycache__/handlers.cpython-310.pyc",
+    "Lib/site-packages/notebook/view/handlers.py",
+    "Menu/jupyter.ico",
+    "Menu/notebook.json",
+    "Scripts/jupyter-bundlerextension-script.py",
+    "Scripts/jupyter-bundlerextension.exe",
+    "Scripts/jupyter-nbextension-script.py",
+    "Scripts/jupyter-nbextension.exe",
+    "Scripts/jupyter-notebook-script.py",
+    "Scripts/jupyter-notebook.exe",
+    "Scripts/jupyter-serverextension-script.py",
+    "Scripts/jupyter-serverextension.exe",
+    "share/applications/jupyter-notebook.desktop",
+    "share/icons/hicolor/scalable/apps/notebook.svg",
+    ".nonadmin",
+    "Menu/notebook.json"
+  ],
+  "fn": "notebook-6.5.2-py310haa95532_0.conda",
+  "legacy_bz2_md5": "b8b499c1ea1ada5f22be5db4edaf81bd",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "C:\\Users\\bokar\\miniconda3\\pkgs\\notebook-6.5.2-py310haa95532_0",
+    "type": 1
+  },
+  "md5": "141fca10ba9c53f681992b7bc100d655",
+  "name": "notebook",
+  "package_tarball_full_path": "C:\\Users\\bokar\\miniconda3\\pkgs\\notebook-6.5.2-py310haa95532_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/notebook-6.5.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/notebook-6.5.2.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "857ccd0f440b356a63dc2a555df7e00c5f10e574f8a3a9cb26b73a41eee7ee47",
+        "sha256_in_prefix": "857ccd0f440b356a63dc2a555df7e00c5f10e574f8a3a9cb26b73a41eee7ee47",
+        "size_in_bytes": 2869
+      },
+      {
+        "_path": "Lib/site-packages/notebook-6.5.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "791fb4db4f55f95774fd3b428f61cef3d94034fef67d263035be5dfbe4a020c9",
+        "sha256_in_prefix": "791fb4db4f55f95774fd3b428f61cef3d94034fef67d263035be5dfbe4a020c9",
+        "size_in_bytes": 2515
+      },
+      {
+        "_path": "Lib/site-packages/notebook-6.5.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "0374048bf2357d26608b5f967764b6caed9ec22f58fa2db04ba1b19609615b23",
+        "sha256_in_prefix": "0374048bf2357d26608b5f967764b6caed9ec22f58fa2db04ba1b19609615b23",
+        "size_in_bytes": 30230
+      },
+      {
+        "_path": "Lib/site-packages/notebook-6.5.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/notebook-6.5.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "sha256_in_prefix": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "Lib/site-packages/notebook-6.5.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "7062868854693fb7e772514947696484f75a37b19cd5e9fabea2474a5405882d",
+        "sha256_in_prefix": "7062868854693fb7e772514947696484f75a37b19cd5e9fabea2474a5405882d",
+        "size_in_bytes": 88
+      },
+      {
+        "_path": "Lib/site-packages/notebook-6.5.2.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "bc0f434fa829c16ae41e74e6774553a75eff480cfe65cd905d773c8392fd67c0",
+        "sha256_in_prefix": "bc0f434fa829c16ae41e74e6774553a75eff480cfe65cd905d773c8392fd67c0",
+        "size_in_bytes": 236
+      },
+      {
+        "_path": "Lib/site-packages/notebook-6.5.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "d86d16645cd9862c7256ab3a8adaa028bc5235aaacdd1809f221cea6cdf320e8",
+        "sha256_in_prefix": "d86d16645cd9862c7256ab3a8adaa028bc5235aaacdd1809f221cea6cdf320e8",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "Lib/site-packages/notebook/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e7da5e4a868b7f4605ca5279b0576f5dd37e41fd956d2ba727abb764e8583e0f",
+        "sha256_in_prefix": "e7da5e4a868b7f4605ca5279b0576f5dd37e41fd956d2ba727abb764e8583e0f",
+        "size_in_bytes": 779
+      },
+      {
+        "_path": "Lib/site-packages/notebook/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "97306dd02db227d8ffdac3733fb935622f99939fe65836534244847f6b5c6476",
+        "sha256_in_prefix": "97306dd02db227d8ffdac3733fb935622f99939fe65836534244847f6b5c6476",
+        "size_in_bytes": 101
+      },
+      {
+        "_path": "Lib/site-packages/notebook/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "cf18ae4ee012897ef880a77a72fcdb701b4de6e7aaa45400a67913fa2c06ebb7",
+        "sha256_in_prefix": "cf18ae4ee012897ef880a77a72fcdb701b4de6e7aaa45400a67913fa2c06ebb7",
+        "size_in_bytes": 463
+      },
+      {
+        "_path": "Lib/site-packages/notebook/__pycache__/__main__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "9df616577b8c220cb03e1bf01b1c5e06b6907780ebf51b8fd3b619456966ed51",
+        "sha256_in_prefix": "9df616577b8c220cb03e1bf01b1c5e06b6907780ebf51b8fd3b619456966ed51",
+        "size_in_bytes": 247
+      },
+      {
+        "_path": "Lib/site-packages/notebook/__pycache__/_sysinfo.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "ab44bba3dcf310390bea1af02a7ba369558f97d76638cef097b66ae32eab7fc7",
+        "sha256_in_prefix": "ab44bba3dcf310390bea1af02a7ba369558f97d76638cef097b66ae32eab7fc7",
+        "size_in_bytes": 2322
+      },
+      {
+        "_path": "Lib/site-packages/notebook/__pycache__/_tz.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "b15876c94df00e4b335d1f0b1a61af279904a8b32bd4fc5fa1aa72b5d401eba5",
+        "sha256_in_prefix": "b15876c94df00e4b335d1f0b1a61af279904a8b32bd4fc5fa1aa72b5d401eba5",
+        "size_in_bytes": 1368
+      },
+      {
+        "_path": "Lib/site-packages/notebook/__pycache__/_version.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "13f67fb2daef19daa5c6883a3a6a00e54fe87282ac0ae11dc210b44b4d8d49c0",
+        "sha256_in_prefix": "13f67fb2daef19daa5c6883a3a6a00e54fe87282ac0ae11dc210b44b4d8d49c0",
+        "size_in_bytes": 575
+      },
+      {
+        "_path": "Lib/site-packages/notebook/__pycache__/config_manager.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "c12188bdfc785205a2b86c493a9d0103212a3c4862f13147305f766b78dcc154",
+        "sha256_in_prefix": "c12188bdfc785205a2b86c493a9d0103212a3c4862f13147305f766b78dcc154",
+        "size_in_bytes": 3959
+      },
+      {
+        "_path": "Lib/site-packages/notebook/__pycache__/extensions.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "8cccf091a860f658bce49d19dd4af3656f2bbb1b3c888041df81234695598922",
+        "sha256_in_prefix": "8cccf091a860f658bce49d19dd4af3656f2bbb1b3c888041df81234695598922",
+        "size_in_bytes": 3144
+      },
+      {
+        "_path": "Lib/site-packages/notebook/__pycache__/jstest.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "f25c7d7e8057296e8db5fa877d2b69c5e289863b38a8e32318965d7c1adf8daa",
+        "sha256_in_prefix": "f25c7d7e8057296e8db5fa877d2b69c5e289863b38a8e32318965d7c1adf8daa",
+        "size_in_bytes": 18543
+      },
+      {
+        "_path": "Lib/site-packages/notebook/__pycache__/log.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "ee818529be1200a1c466f66d365125d65f8c8b26c7e9dd1b26ad6c9d53f7a8dc",
+        "sha256_in_prefix": "ee818529be1200a1c466f66d365125d65f8c8b26c7e9dd1b26ad6c9d53f7a8dc",
+        "size_in_bytes": 1477
+      },
+      {
+        "_path": "Lib/site-packages/notebook/__pycache__/nbextensions.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "bf93f03c7c450e8f69c9f91930ba58d5f8dc5f71df51b426f0d1df5580de6d76",
+        "sha256_in_prefix": "bf93f03c7c450e8f69c9f91930ba58d5f8dc5f71df51b426f0d1df5580de6d76",
+        "size_in_bytes": 33480
+      },
+      {
+        "_path": "Lib/site-packages/notebook/__pycache__/notebookapp.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "0380646024dda21e11a32ac0901012e69b6e3b9fdacd0ff381700756c34abbf0",
+        "sha256_in_prefix": "0380646024dda21e11a32ac0901012e69b6e3b9fdacd0ff381700756c34abbf0",
+        "size_in_bytes": 72888
+      },
+      {
+        "_path": "Lib/site-packages/notebook/__pycache__/serverextensions.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "4e3a46306ce03245399e5e7a46fa94883de10c14b6e77bc92faf94ee679363f4",
+        "sha256_in_prefix": "4e3a46306ce03245399e5e7a46fa94883de10c14b6e77bc92faf94ee679363f4",
+        "size_in_bytes": 9717
+      },
+      {
+        "_path": "Lib/site-packages/notebook/__pycache__/traittypes.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "90266d80d89e3dd3017216cddb2df045b24426b5bdf43d664046fe3210b6f4af",
+        "sha256_in_prefix": "90266d80d89e3dd3017216cddb2df045b24426b5bdf43d664046fe3210b6f4af",
+        "size_in_bytes": 12096
+      },
+      {
+        "_path": "Lib/site-packages/notebook/__pycache__/transutils.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "e79d8b1cb7250e2ba0e3a4d6bbcda011046c8150faf4668abbbadfe1a5a9d066",
+        "sha256_in_prefix": "e79d8b1cb7250e2ba0e3a4d6bbcda011046c8150faf4668abbbadfe1a5a9d066",
+        "size_in_bytes": 430
+      },
+      {
+        "_path": "Lib/site-packages/notebook/__pycache__/utils.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "79264295311d63476a39255a27416b91ccb42a4c13a8aaf66897b8bf9f90bfdc",
+        "sha256_in_prefix": "79264295311d63476a39255a27416b91ccb42a4c13a8aaf66897b8bf9f90bfdc",
+        "size_in_bytes": 12141
+      },
+      {
+        "_path": "Lib/site-packages/notebook/_sysinfo.py",
+        "path_type": "hardlink",
+        "sha256": "9093e24ae0fadbf38f9b65dd193a0a8b453a70dccdd68d05782a4e3afefe8fa4",
+        "sha256_in_prefix": "9093e24ae0fadbf38f9b65dd193a0a8b453a70dccdd68d05782a4e3afefe8fa4",
+        "size_in_bytes": 2533
+      },
+      {
+        "_path": "Lib/site-packages/notebook/_tz.py",
+        "path_type": "hardlink",
+        "sha256": "550d24d40c85cda0e8d66f8046b2c60c9dac0e69610e6b1f24347485e4062536",
+        "sha256_in_prefix": "550d24d40c85cda0e8d66f8046b2c60c9dac0e69610e6b1f24347485e4062536",
+        "size_in_bytes": 936
+      },
+      {
+        "_path": "Lib/site-packages/notebook/_version.py",
+        "path_type": "hardlink",
+        "sha256": "0e14a5f7ac9a6f6bcc8100172057697a53e4b959002b45ca08ddedf8b9da3925",
+        "sha256_in_prefix": "0e14a5f7ac9a6f6bcc8100172057697a53e4b959002b45ca08ddedf8b9da3925",
+        "size_in_bytes": 460
+      },
+      {
+        "_path": "Lib/site-packages/notebook/auth/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "84b9f34f4e9f39449642c181e3782a6eff153fa27a5583a0a0180d7b520e817c",
+        "sha256_in_prefix": "84b9f34f4e9f39449642c181e3782a6eff153fa27a5583a0a0180d7b520e817c",
+        "size_in_bytes": 29
+      },
+      {
+        "_path": "Lib/site-packages/notebook/auth/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "50edbf71c713ad28f2ad561dd53f438ec3febe7bcf414dad293554d1aae86cb4",
+        "sha256_in_prefix": "50edbf71c713ad28f2ad561dd53f438ec3febe7bcf414dad293554d1aae86cb4",
+        "size_in_bytes": 1481
+      },
+      {
+        "_path": "Lib/site-packages/notebook/auth/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "873e13d53c635210b3bb53bbdbbb2b02a1fbc5fccdc4e979ef2d9352921b59ab",
+        "sha256_in_prefix": "873e13d53c635210b3bb53bbdbbb2b02a1fbc5fccdc4e979ef2d9352921b59ab",
+        "size_in_bytes": 175
+      },
+      {
+        "_path": "Lib/site-packages/notebook/auth/__pycache__/__main__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "f957e9fc2dbe82596133224742b9df000f39b2607b6f69967d2c422c7d91b177",
+        "sha256_in_prefix": "f957e9fc2dbe82596133224742b9df000f39b2607b6f69967d2c422c7d91b177",
+        "size_in_bytes": 1664
+      },
+      {
+        "_path": "Lib/site-packages/notebook/auth/__pycache__/login.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "59aee33cd40e45fc27455f52c7b36c8207c929b0c1e9ed999de588352df5750e",
+        "sha256_in_prefix": "59aee33cd40e45fc27455f52c7b36c8207c929b0c1e9ed999de588352df5750e",
+        "size_in_bytes": 7667
+      },
+      {
+        "_path": "Lib/site-packages/notebook/auth/__pycache__/logout.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "9771fbad84d8da9e60e9913af047e4b7d49f11053b35b4a9056a299e729c8ad8",
+        "sha256_in_prefix": "9771fbad84d8da9e60e9913af047e4b7d49f11053b35b4a9056a299e729c8ad8",
+        "size_in_bytes": 816
+      },
+      {
+        "_path": "Lib/site-packages/notebook/auth/__pycache__/security.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "e4a0d06ed4d757d929f1b77c984885dcbbe63a9f2cdf89bc3ffebccb9b426d04",
+        "sha256_in_prefix": "e4a0d06ed4d757d929f1b77c984885dcbbe63a9f2cdf89bc3ffebccb9b426d04",
+        "size_in_bytes": 4677
+      },
+      {
+        "_path": "Lib/site-packages/notebook/auth/login.py",
+        "path_type": "hardlink",
+        "sha256": "8eaf04ccfae15f37cedc24cc2dec058b8d1bd1d9a48bf567115e153df85fa731",
+        "sha256_in_prefix": "8eaf04ccfae15f37cedc24cc2dec058b8d1bd1d9a48bf567115e153df85fa731",
+        "size_in_bytes": 10108
+      },
+      {
+        "_path": "Lib/site-packages/notebook/auth/logout.py",
+        "path_type": "hardlink",
+        "sha256": "8436bb9deda1f95e05c23eb60fe42bdeb27e62382cdd596920e90c9c2f5c0216",
+        "sha256_in_prefix": "8436bb9deda1f95e05c23eb60fe42bdeb27e62382cdd596920e90c9c2f5c0216",
+        "size_in_bytes": 662
+      },
+      {
+        "_path": "Lib/site-packages/notebook/auth/security.py",
+        "path_type": "hardlink",
+        "sha256": "033460653347fdfb55dad00dd47f59ab8bb141cd4706f0426148df335b0851a8",
+        "sha256_in_prefix": "033460653347fdfb55dad00dd47f59ab8bb141cd4706f0426148df335b0851a8",
+        "size_in_bytes": 4944
+      },
+      {
+        "_path": "Lib/site-packages/notebook/auth/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/notebook/auth/tests/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "8aeae2c3918d85d24f2d74b30fb3e96d03b8774fed91c95c7cd671701564ad88",
+        "sha256_in_prefix": "8aeae2c3918d85d24f2d74b30fb3e96d03b8774fed91c95c7cd671701564ad88",
+        "size_in_bytes": 142
+      },
+      {
+        "_path": "Lib/site-packages/notebook/auth/tests/__pycache__/test_login.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "de53e3b6eb1b7148018030648a12fd3bbce861ed90081e114a9b331f977ac265",
+        "sha256_in_prefix": "de53e3b6eb1b7148018030648a12fd3bbce861ed90081e114a9b331f977ac265",
+        "size_in_bytes": 1592
+      },
+      {
+        "_path": "Lib/site-packages/notebook/auth/tests/__pycache__/test_security.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "eed7ab011c019a1ce6903e66eb67b19186ed1a0733a5b61d0b7030c9a0d61bf1",
+        "sha256_in_prefix": "eed7ab011c019a1ce6903e66eb67b19186ed1a0733a5b61d0b7030c9a0d61bf1",
+        "size_in_bytes": 1125
+      },
+      {
+        "_path": "Lib/site-packages/notebook/auth/tests/test_login.py",
+        "path_type": "hardlink",
+        "sha256": "3b622dc3c79f17a8e32131ec799a75712939f20d9f76dc3295f42f64548ec844",
+        "sha256_in_prefix": "3b622dc3c79f17a8e32131ec799a75712939f20d9f76dc3295f42f64548ec844",
+        "size_in_bytes": 1557
+      },
+      {
+        "_path": "Lib/site-packages/notebook/auth/tests/test_security.py",
+        "path_type": "hardlink",
+        "sha256": "2c1a0006fb41904d9c73bb606fff7c4aeb6ab980142a97f614f7e9a76796b7e7",
+        "sha256_in_prefix": "2c1a0006fb41904d9c73bb606fff7c4aeb6ab980142a97f614f7e9a76796b7e7",
+        "size_in_bytes": 839
+      },
+      {
+        "_path": "Lib/site-packages/notebook/base/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/notebook/base/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "96f7b3387d398b5d65dbf223675cb2badd43656770851c0c56d8978c61b25003",
+        "sha256_in_prefix": "96f7b3387d398b5d65dbf223675cb2badd43656770851c0c56d8978c61b25003",
+        "size_in_bytes": 136
+      },
+      {
+        "_path": "Lib/site-packages/notebook/base/__pycache__/handlers.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "67d9a738147f84cf81331bc8886f2fc002bf88a2117d2381d204cad16471b5a7",
+        "sha256_in_prefix": "67d9a738147f84cf81331bc8886f2fc002bf88a2117d2381d204cad16471b5a7",
+        "size_in_bytes": 28990
+      },
+      {
+        "_path": "Lib/site-packages/notebook/base/__pycache__/zmqhandlers.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "49a192f533edb2b0022566fd18217d02f6719180e2de69e37c63d65441d681b1",
+        "sha256_in_prefix": "49a192f533edb2b0022566fd18217d02f6719180e2de69e37c63d65441d681b1",
+        "size_in_bytes": 9131
+      },
+      {
+        "_path": "Lib/site-packages/notebook/base/handlers.py",
+        "path_type": "hardlink",
+        "sha256": "31d002a60942893af65ed8d678187466790ae201ab61d71b9653cc23a72859e4",
+        "sha256_in_prefix": "31d002a60942893af65ed8d678187466790ae201ab61d71b9653cc23a72859e4",
+        "size_in_bytes": 33606
+      },
+      {
+        "_path": "Lib/site-packages/notebook/base/zmqhandlers.py",
+        "path_type": "hardlink",
+        "sha256": "6af02d60887041de8436c7ef692d439e7b8dad81ee913860a910186b2450c35e",
+        "sha256_in_prefix": "6af02d60887041de8436c7ef692d439e7b8dad81ee913860a910186b2450c35e",
+        "size_in_bytes": 10166
+      },
+      {
+        "_path": "Lib/site-packages/notebook/bundler/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/notebook/bundler/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "c317d537f86b26b01bd0dba93f47ee68e8e030426d429d8a46893ed0ada56770",
+        "sha256_in_prefix": "c317d537f86b26b01bd0dba93f47ee68e8e030426d429d8a46893ed0ada56770",
+        "size_in_bytes": 180
+      },
+      {
+        "_path": "Lib/site-packages/notebook/bundler/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "f59f63478c770f118263daa8cc7fc2219f56d662c9be54422a671abfd73794f7",
+        "sha256_in_prefix": "f59f63478c770f118263daa8cc7fc2219f56d662c9be54422a671abfd73794f7",
+        "size_in_bytes": 139
+      },
+      {
+        "_path": "Lib/site-packages/notebook/bundler/__pycache__/__main__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "a01f420d9b22c9302c3ba91178496067ea5cd6e6aba29a1c633259300f010648",
+        "sha256_in_prefix": "a01f420d9b22c9302c3ba91178496067ea5cd6e6aba29a1c633259300f010648",
+        "size_in_bytes": 229
+      },
+      {
+        "_path": "Lib/site-packages/notebook/bundler/__pycache__/bundlerextensions.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "4a2fa4473c2dcf97f7d920363d04ae157892d2cc8ccb3cbaad9651cea7d65713",
+        "sha256_in_prefix": "4a2fa4473c2dcf97f7d920363d04ae157892d2cc8ccb3cbaad9651cea7d65713",
+        "size_in_bytes": 10465
+      },
+      {
+        "_path": "Lib/site-packages/notebook/bundler/__pycache__/handlers.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "1fd98ecf7a6d7a21bdf521abe8d04eda55596a9c667fc1944507f906464a38b5",
+        "sha256_in_prefix": "1fd98ecf7a6d7a21bdf521abe8d04eda55596a9c667fc1944507f906464a38b5",
+        "size_in_bytes": 2672
+      },
+      {
+        "_path": "Lib/site-packages/notebook/bundler/__pycache__/tarball_bundler.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "6d455874de0f842b6eeb761f36153d1f08b0d42367f73f0bfbeeda92d87dee9c",
+        "sha256_in_prefix": "6d455874de0f842b6eeb761f36153d1f08b0d42367f73f0bfbeeda92d87dee9c",
+        "size_in_bytes": 1465
+      },
+      {
+        "_path": "Lib/site-packages/notebook/bundler/__pycache__/tools.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "0a145b2da7bc799ce127dea301d98b873d5eac134f0985b9608e9f7799748f26",
+        "sha256_in_prefix": "0a145b2da7bc799ce127dea301d98b873d5eac134f0985b9608e9f7799748f26",
+        "size_in_bytes": 5495
+      },
+      {
+        "_path": "Lib/site-packages/notebook/bundler/__pycache__/zip_bundler.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "40af8aa892d4fe49e0038ecf45590e0575d8bbfff81ecdba5a928405fe50eaf8",
+        "sha256_in_prefix": "40af8aa892d4fe49e0038ecf45590e0575d8bbfff81ecdba5a928405fe50eaf8",
+        "size_in_bytes": 1815
+      },
+      {
+        "_path": "Lib/site-packages/notebook/bundler/bundlerextensions.py",
+        "path_type": "hardlink",
+        "sha256": "856c02dc1b8f363174a3ce8fcdb9c7b4277c446e18acf502d427fcdce0b7f2a9",
+        "sha256_in_prefix": "856c02dc1b8f363174a3ce8fcdb9c7b4277c446e18acf502d427fcdce0b7f2a9",
+        "size_in_bytes": 10856
+      },
+      {
+        "_path": "Lib/site-packages/notebook/bundler/handlers.py",
+        "path_type": "hardlink",
+        "sha256": "d7849341b8e2fc12974b997657ebc9012cc2f94b11d2980df6819f717c41c1e4",
+        "sha256_in_prefix": "d7849341b8e2fc12974b997657ebc9012cc2f94b11d2980df6819f717c41c1e4",
+        "size_in_bytes": 2644
+      },
+      {
+        "_path": "Lib/site-packages/notebook/bundler/tarball_bundler.py",
+        "path_type": "hardlink",
+        "sha256": "16855e0e859cecb8b60aba39dc371c53a313b8e615f2b83d2fb9ef0c3b874895",
+        "sha256_in_prefix": "16855e0e859cecb8b60aba39dc371c53a313b8e615f2b83d2fb9ef0c3b874895",
+        "size_in_bytes": 1587
+      },
+      {
+        "_path": "Lib/site-packages/notebook/bundler/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/notebook/bundler/tests/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "09db5d2c549267d8a76ba85536161270a4cef7527334cfa696066965a4821d7e",
+        "sha256_in_prefix": "09db5d2c549267d8a76ba85536161270a4cef7527334cfa696066965a4821d7e",
+        "size_in_bytes": 145
+      },
+      {
+        "_path": "Lib/site-packages/notebook/bundler/tests/__pycache__/test_bundler_api.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "a2760f26f8b52e140d4a57bdd957eba31e45a533f24d686885d9477c2cbd3f35",
+        "sha256_in_prefix": "a2760f26f8b52e140d4a57bdd957eba31e45a533f24d686885d9477c2cbd3f35",
+        "size_in_bytes": 3424
+      },
+      {
+        "_path": "Lib/site-packages/notebook/bundler/tests/__pycache__/test_bundler_tools.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "9658768721f27fe626210133b16bb4e49889e74e01abafa6ded3669962d5d91c",
+        "sha256_in_prefix": "9658768721f27fe626210133b16bb4e49889e74e01abafa6ded3669962d5d91c",
+        "size_in_bytes": 5473
+      },
+      {
+        "_path": "Lib/site-packages/notebook/bundler/tests/__pycache__/test_bundlerextension.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "96a6f94f47c1f65cfe3c245782f9251efca132b3dd7902fee9cd8287590e2643",
+        "sha256_in_prefix": "96a6f94f47c1f65cfe3c245782f9251efca132b3dd7902fee9cd8287590e2643",
+        "size_in_bytes": 2904
+      },
+      {
+        "_path": "Lib/site-packages/notebook/bundler/tests/resources/another_subdir/test_file.txt",
+        "path_type": "hardlink",
+        "sha256": "c6aadc55d8e2310be68c2b5ecc9a752d24b853a41b808971b8976cfe74f46806",
+        "sha256_in_prefix": "c6aadc55d8e2310be68c2b5ecc9a752d24b853a41b808971b8976cfe74f46806",
+        "size_in_bytes": 22
+      },
+      {
+        "_path": "Lib/site-packages/notebook/bundler/tests/resources/empty.ipynb",
+        "path_type": "hardlink",
+        "sha256": "f4773cec9404d66171125120847b80c706db840b45fa13ffc36ec2e70a892dd7",
+        "sha256_in_prefix": "f4773cec9404d66171125120847b80c706db840b45fa13ffc36ec2e70a892dd7",
+        "size_in_bytes": 75
+      },
+      {
+        "_path": "Lib/site-packages/notebook/bundler/tests/resources/subdir/subsubdir/.gitkeep",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/notebook/bundler/tests/resources/subdir/test_file.txt",
+        "path_type": "hardlink",
+        "sha256": "c6aadc55d8e2310be68c2b5ecc9a752d24b853a41b808971b8976cfe74f46806",
+        "sha256_in_prefix": "c6aadc55d8e2310be68c2b5ecc9a752d24b853a41b808971b8976cfe74f46806",
+        "size_in_bytes": 22
+      },
+      {
+        "_path": "Lib/site-packages/notebook/bundler/tests/test_bundler_api.py",
+        "path_type": "hardlink",
+        "sha256": "d073deaeb3ef5d891a4bd183479a5b980cf3ecf807ed17fb403d9ec68956fe10",
+        "sha256_in_prefix": "d073deaeb3ef5d891a4bd183479a5b980cf3ecf807ed17fb403d9ec68956fe10",
+        "size_in_bytes": 3207
+      },
+      {
+        "_path": "Lib/site-packages/notebook/bundler/tests/test_bundler_tools.py",
+        "path_type": "hardlink",
+        "sha256": "fdf07a596ec9405d79f2aebe869cbe066722e39c99e06e7a95b7bdfd183598a4",
+        "sha256_in_prefix": "fdf07a596ec9405d79f2aebe869cbe066722e39c99e06e7a95b7bdfd183598a4",
+        "size_in_bytes": 5145
+      },
+      {
+        "_path": "Lib/site-packages/notebook/bundler/tests/test_bundlerextension.py",
+        "path_type": "hardlink",
+        "sha256": "df00ea6d3e73fc61b81870ff174d4f1a759686093abd75b8ed45841c9de05dd6",
+        "sha256_in_prefix": "df00ea6d3e73fc61b81870ff174d4f1a759686093abd75b8ed45841c9de05dd6",
+        "size_in_bytes": 2916
+      },
+      {
+        "_path": "Lib/site-packages/notebook/bundler/tools.py",
+        "path_type": "hardlink",
+        "sha256": "a4be00aefed645507f64245f270ba3a94190a5af9d5391e33fd9306d07e5b1fe",
+        "sha256_in_prefix": "a4be00aefed645507f64245f270ba3a94190a5af9d5391e33fd9306d07e5b1fe",
+        "size_in_bytes": 7794
+      },
+      {
+        "_path": "Lib/site-packages/notebook/bundler/zip_bundler.py",
+        "path_type": "hardlink",
+        "sha256": "59896a94ac331df26f84021cec1be5c37d353eff04bfe06a71e13bf515bf98ba",
+        "sha256_in_prefix": "59896a94ac331df26f84021cec1be5c37d353eff04bfe06a71e13bf515bf98ba",
+        "size_in_bytes": 2055
+      },
+      {
+        "_path": "Lib/site-packages/notebook/config_manager.py",
+        "path_type": "hardlink",
+        "sha256": "dc4d27bcdb8d095092deadc5a5cdae24c2339d5f210e6ab7d9fb016032961da8",
+        "sha256_in_prefix": "dc4d27bcdb8d095092deadc5a5cdae24c2339d5f210e6ab7d9fb016032961da8",
+        "size_in_bytes": 4564
+      },
+      {
+        "_path": "Lib/site-packages/notebook/edit/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/notebook/edit/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "a843c38e27d6ac9e0c96232c5e3ff010fa8068542b5e139c9c97ecffb7fa1493",
+        "sha256_in_prefix": "a843c38e27d6ac9e0c96232c5e3ff010fa8068542b5e139c9c97ecffb7fa1493",
+        "size_in_bytes": 136
+      },
+      {
+        "_path": "Lib/site-packages/notebook/edit/__pycache__/handlers.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "414dce47331abf251f5a0e4c3a4157e0103370d16f1cf98d097de36af9651b7b",
+        "sha256_in_prefix": "414dce47331abf251f5a0e4c3a4157e0103370d16f1cf98d097de36af9651b7b",
+        "size_in_bytes": 1047
+      },
+      {
+        "_path": "Lib/site-packages/notebook/edit/handlers.py",
+        "path_type": "hardlink",
+        "sha256": "11f71f24e2fe4123846cac12d7806f2294ac83cd391067abbaa846ee91832a03",
+        "sha256_in_prefix": "11f71f24e2fe4123846cac12d7806f2294ac83cd391067abbaa846ee91832a03",
+        "size_in_bytes": 857
+      },
+      {
+        "_path": "Lib/site-packages/notebook/extensions.py",
+        "path_type": "hardlink",
+        "sha256": "0c84017f8875e915fe490337e9e6663299ea9686baee04ccf8afbd35032a0dd1",
+        "sha256_in_prefix": "0c84017f8875e915fe490337e9e6663299ea9686baee04ccf8afbd35032a0dd1",
+        "size_in_bytes": 3348
+      },
+      {
+        "_path": "Lib/site-packages/notebook/files/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/notebook/files/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "98f098331bbde5bb128fe3c8d61110afab299cbb1e88f7eace2a363a1c793aa0",
+        "sha256_in_prefix": "98f098331bbde5bb128fe3c8d61110afab299cbb1e88f7eace2a363a1c793aa0",
+        "size_in_bytes": 137
+      },
+      {
+        "_path": "Lib/site-packages/notebook/files/__pycache__/handlers.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "56dd6690562f7400b7f5d8c30c9130ebf59d54a9b3847f9efaea81292e1b9ded",
+        "sha256_in_prefix": "56dd6690562f7400b7f5d8c30c9130ebf59d54a9b3847f9efaea81292e1b9ded",
+        "size_in_bytes": 2400
+      },
+      {
+        "_path": "Lib/site-packages/notebook/files/handlers.py",
+        "path_type": "hardlink",
+        "sha256": "5181e0c8c94213a2939508a90747289be93d8f2c59bddc437c7ed1d168769337",
+        "sha256_in_prefix": "5181e0c8c94213a2939508a90747289be93d8f2c59bddc437c7ed1d168769337",
+        "size_in_bytes": 2814
+      },
+      {
+        "_path": "Lib/site-packages/notebook/gateway/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/notebook/gateway/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "800edc4a232ee309933697bc7aeef036427317d3c535d6913806e2719851af9c",
+        "sha256_in_prefix": "800edc4a232ee309933697bc7aeef036427317d3c535d6913806e2719851af9c",
+        "size_in_bytes": 139
+      },
+      {
+        "_path": "Lib/site-packages/notebook/gateway/__pycache__/handlers.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "3da34833adb1c34c7231d92cb300b164d77bdff0763d7db428539855cb6d4d6f",
+        "sha256_in_prefix": "3da34833adb1c34c7231d92cb300b164d77bdff0763d7db428539855cb6d4d6f",
+        "size_in_bytes": 10445
+      },
+      {
+        "_path": "Lib/site-packages/notebook/gateway/__pycache__/managers.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "feb326a2153743c7ed4b05900343fd35609e69cd03c684b12bfbe2a7f068941b",
+        "sha256_in_prefix": "feb326a2153743c7ed4b05900343fd35609e69cd03c684b12bfbe2a7f068941b",
+        "size_in_bytes": 24541
+      },
+      {
+        "_path": "Lib/site-packages/notebook/gateway/handlers.py",
+        "path_type": "hardlink",
+        "sha256": "bcff6285acc645f610172a56ef5fb762c14bb0b997317d6f4215d2dc9ceaaf34",
+        "sha256_in_prefix": "bcff6285acc645f610172a56ef5fb762c14bb0b997317d6f4215d2dc9ceaaf34",
+        "size_in_bytes": 10495
+      },
+      {
+        "_path": "Lib/site-packages/notebook/gateway/managers.py",
+        "path_type": "hardlink",
+        "sha256": "11b465496a73cc4d1cf7c4348be5c47b9fa1bc56050f2e628bd32ee79710639c",
+        "sha256_in_prefix": "11b465496a73cc4d1cf7c4348be5c47b9fa1bc56050f2e628bd32ee79710639c",
+        "size_in_bytes": 28728
+      },
+      {
+        "_path": "Lib/site-packages/notebook/i18n/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "9f532ca8397e60af3fd7da8d8890f85cf303ec65530138e9f64f2c125b7ca3ae",
+        "sha256_in_prefix": "9f532ca8397e60af3fd7da8d8890f85cf303ec65530138e9f64f2c125b7ca3ae",
+        "size_in_bytes": 2822
+      },
+      {
+        "_path": "Lib/site-packages/notebook/i18n/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "73643f62e29ddc6ce3d37504f472979d08eed68ea47dd3c25317c8371bdb66e5",
+        "sha256_in_prefix": "73643f62e29ddc6ce3d37504f472979d08eed68ea47dd3c25317c8371bdb66e5",
+        "size_in_bytes": 2423
+      },
+      {
+        "_path": "Lib/site-packages/notebook/i18n/fr_FR/LC_MESSAGES/nbjs.po",
+        "path_type": "hardlink",
+        "sha256": "ee5bb4b25dc414ac7e98106d6216dbe51dc3e2a59cef349a23c6d5f7b3120df8",
+        "sha256_in_prefix": "ee5bb4b25dc414ac7e98106d6216dbe51dc3e2a59cef349a23c6d5f7b3120df8",
+        "size_in_bytes": 69108
+      },
+      {
+        "_path": "Lib/site-packages/notebook/i18n/fr_FR/LC_MESSAGES/nbui.po",
+        "path_type": "hardlink",
+        "sha256": "aa5ca8cefedd4f2e55a62a7d1bf193ad92359c4084b5f86adc36669dfac83409",
+        "sha256_in_prefix": "aa5ca8cefedd4f2e55a62a7d1bf193ad92359c4084b5f86adc36669dfac83409",
+        "size_in_bytes": 20508
+      },
+      {
+        "_path": "Lib/site-packages/notebook/i18n/fr_FR/LC_MESSAGES/notebook.po",
+        "path_type": "hardlink",
+        "sha256": "d72e15070dabd06bafc72716775a47e0fc6856a9900b6509ccc9e1b237cf1f13",
+        "sha256_in_prefix": "d72e15070dabd06bafc72716775a47e0fc6856a9900b6509ccc9e1b237cf1f13",
+        "size_in_bytes": 12391
+      },
+      {
+        "_path": "Lib/site-packages/notebook/i18n/ja_JP/LC_MESSAGES/nbjs.po",
+        "path_type": "hardlink",
+        "sha256": "4b0fdc9491fa42cb909ae88a06d7793ee7ff5626df8a95f9f2ac3228733e2145",
+        "sha256_in_prefix": "4b0fdc9491fa42cb909ae88a06d7793ee7ff5626df8a95f9f2ac3228733e2145",
+        "size_in_bytes": 69814
+      },
+      {
+        "_path": "Lib/site-packages/notebook/i18n/ja_JP/LC_MESSAGES/nbui.po",
+        "path_type": "hardlink",
+        "sha256": "9c6552b0845bac39be0605402a90265372254101a2bb69738b36c4eca7772b56",
+        "sha256_in_prefix": "9c6552b0845bac39be0605402a90265372254101a2bb69738b36c4eca7772b56",
+        "size_in_bytes": 21113
+      },
+      {
+        "_path": "Lib/site-packages/notebook/i18n/ja_JP/LC_MESSAGES/notebook.po",
+        "path_type": "hardlink",
+        "sha256": "a50a18fe9dc7030903084bfd52bb4eb81bb31f4dbcecbf0cad3aeefc7e497f4f",
+        "sha256_in_prefix": "a50a18fe9dc7030903084bfd52bb4eb81bb31f4dbcecbf0cad3aeefc7e497f4f",
+        "size_in_bytes": 21155
+      },
+      {
+        "_path": "Lib/site-packages/notebook/i18n/nl/LC_MESSAGES/nbjs.json",
+        "path_type": "hardlink",
+        "sha256": "96add4f2ba01039c5764160e40d8919ff8f0b329d5765f26c177ed955b7fa5b3",
+        "sha256_in_prefix": "96add4f2ba01039c5764160e40d8919ff8f0b329d5765f26c177ed955b7fa5b3",
+        "size_in_bytes": 48831
+      },
+      {
+        "_path": "Lib/site-packages/notebook/i18n/nl/LC_MESSAGES/nbjs.po",
+        "path_type": "hardlink",
+        "sha256": "9360dcde8a39af352b53fe44c02435cb1ba40eb763a35be01139259defffbd0c",
+        "sha256_in_prefix": "9360dcde8a39af352b53fe44c02435cb1ba40eb763a35be01139259defffbd0c",
+        "size_in_bytes": 66783
+      },
+      {
+        "_path": "Lib/site-packages/notebook/i18n/nl/LC_MESSAGES/nbui.mo",
+        "path_type": "hardlink",
+        "sha256": "ad9d3730ec48873994565a90bb4f95604fb3d61bd256e67025aca4fe15fa96ce",
+        "sha256_in_prefix": "ad9d3730ec48873994565a90bb4f95604fb3d61bd256e67025aca4fe15fa96ce",
+        "size_in_bytes": 11800
+      },
+      {
+        "_path": "Lib/site-packages/notebook/i18n/nl/LC_MESSAGES/nbui.po",
+        "path_type": "hardlink",
+        "sha256": "263f6af941ccd91d217f1aeada86ff1e24e42723bf8e4942b9f9b074b3b94111",
+        "sha256_in_prefix": "263f6af941ccd91d217f1aeada86ff1e24e42723bf8e4942b9f9b074b3b94111",
+        "size_in_bytes": 19824
+      },
+      {
+        "_path": "Lib/site-packages/notebook/i18n/nl/LC_MESSAGES/notebook.mo",
+        "path_type": "hardlink",
+        "sha256": "de00d3babd519591a882c06e3f5dc19ca42df07dd2e1447f3d2dd285b29187d0",
+        "sha256_in_prefix": "de00d3babd519591a882c06e3f5dc19ca42df07dd2e1447f3d2dd285b29187d0",
+        "size_in_bytes": 15498
+      },
+      {
+        "_path": "Lib/site-packages/notebook/i18n/nl/LC_MESSAGES/notebook.po",
+        "path_type": "hardlink",
+        "sha256": "2a91edc2c4e20db7e0fc12da1c726541ff901d7512fadffd27548f99f0f24002",
+        "sha256_in_prefix": "2a91edc2c4e20db7e0fc12da1c726541ff901d7512fadffd27548f99f0f24002",
+        "size_in_bytes": 19908
+      },
+      {
+        "_path": "Lib/site-packages/notebook/i18n/ru_RU/LC_MESSAGES/nbjs.po",
+        "path_type": "hardlink",
+        "sha256": "f663baf69d1491c6a0ed89b4850b3f1cde609eabecd34f8cceb762199f352063",
+        "sha256_in_prefix": "f663baf69d1491c6a0ed89b4850b3f1cde609eabecd34f8cceb762199f352063",
+        "size_in_bytes": 80233
+      },
+      {
+        "_path": "Lib/site-packages/notebook/i18n/ru_RU/LC_MESSAGES/nbui.po",
+        "path_type": "hardlink",
+        "sha256": "e913a33c5dd3e2ae0b768c870406368719fd21db5941357d612870388e55b74c",
+        "sha256_in_prefix": "e913a33c5dd3e2ae0b768c870406368719fd21db5941357d612870388e55b74c",
+        "size_in_bytes": 23364
+      },
+      {
+        "_path": "Lib/site-packages/notebook/i18n/ru_RU/LC_MESSAGES/notebook.po",
+        "path_type": "hardlink",
+        "sha256": "38824df507fd6e2504ad51e142d78a4be8b90d8dd0c75a4b9a3c921d82919f94",
+        "sha256_in_prefix": "38824df507fd6e2504ad51e142d78a4be8b90d8dd0c75a4b9a3c921d82919f94",
+        "size_in_bytes": 24643
+      },
+      {
+        "_path": "Lib/site-packages/notebook/i18n/zh_CN/LC_MESSAGES/nbjs.po",
+        "path_type": "hardlink",
+        "sha256": "61dba1c2226c1b4958101ce04cc03db3f0802b33f69a475a36df00f26d055f0e",
+        "sha256_in_prefix": "61dba1c2226c1b4958101ce04cc03db3f0802b33f69a475a36df00f26d055f0e",
+        "size_in_bytes": 63990
+      },
+      {
+        "_path": "Lib/site-packages/notebook/i18n/zh_CN/LC_MESSAGES/nbui.po",
+        "path_type": "hardlink",
+        "sha256": "f68fded59482d818323f0425f708331523400ce107e14fa46b11e81da1d70b20",
+        "sha256_in_prefix": "f68fded59482d818323f0425f708331523400ce107e14fa46b11e81da1d70b20",
+        "size_in_bytes": 19086
+      },
+      {
+        "_path": "Lib/site-packages/notebook/i18n/zh_CN/LC_MESSAGES/notebook.po",
+        "path_type": "hardlink",
+        "sha256": "79b0a21c0941f8e27774acb53363656da0a13e01bf8b034f6e331fa4168af372",
+        "sha256_in_prefix": "79b0a21c0941f8e27774acb53363656da0a13e01bf8b034f6e331fa4168af372",
+        "size_in_bytes": 17302
+      },
+      {
+        "_path": "Lib/site-packages/notebook/jstest.py",
+        "path_type": "hardlink",
+        "sha256": "e71ece62850fc681c473cb8c3b7cd56ef1dc82d6e23d9dc2fd1837c6e865eb64",
+        "sha256_in_prefix": "e71ece62850fc681c473cb8c3b7cd56ef1dc82d6e23d9dc2fd1837c6e865eb64",
+        "size_in_bytes": 20559
+      },
+      {
+        "_path": "Lib/site-packages/notebook/kernelspecs/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/notebook/kernelspecs/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "fbc4eff1583ee1177d3ce9152d31cc7be9bfb4273350850e8338a5ec53cc1316",
+        "sha256_in_prefix": "fbc4eff1583ee1177d3ce9152d31cc7be9bfb4273350850e8338a5ec53cc1316",
+        "size_in_bytes": 143
+      },
+      {
+        "_path": "Lib/site-packages/notebook/kernelspecs/__pycache__/handlers.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "9977661f24e5220969d175606d3e25d1a85fb90650df4fa82a6aed10e088d415",
+        "sha256_in_prefix": "9977661f24e5220969d175606d3e25d1a85fb90650df4fa82a6aed10e088d415",
+        "size_in_bytes": 1457
+      },
+      {
+        "_path": "Lib/site-packages/notebook/kernelspecs/handlers.py",
+        "path_type": "hardlink",
+        "sha256": "5878c846d2a6a0f5d73e04398c5ee6b2b0d7df02d60efb2acc3731c15dd62d33",
+        "sha256_in_prefix": "5878c846d2a6a0f5d73e04398c5ee6b2b0d7df02d60efb2acc3731c15dd62d33",
+        "size_in_bytes": 1058
+      },
+      {
+        "_path": "Lib/site-packages/notebook/log.py",
+        "path_type": "hardlink",
+        "sha256": "60d1a83b48f70c8ca639def6d6ed867b94213643ba2ca0a1a7f7d75d961bb8d9",
+        "sha256_in_prefix": "60d1a83b48f70c8ca639def6d6ed867b94213643ba2ca0a1a7f7d75d961bb8d9",
+        "size_in_bytes": 2151
+      },
+      {
+        "_path": "Lib/site-packages/notebook/nbconvert/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/notebook/nbconvert/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "2e5c8d294b19daa919343b1d5d9f69c77d4b55860ee03b1ca8635781e56038c0",
+        "sha256_in_prefix": "2e5c8d294b19daa919343b1d5d9f69c77d4b55860ee03b1ca8635781e56038c0",
+        "size_in_bytes": 141
+      },
+      {
+        "_path": "Lib/site-packages/notebook/nbconvert/__pycache__/handlers.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "5ca73c05667c87090f808a7d99f027d7be253319e032c494f2a538e827323119",
+        "sha256_in_prefix": "5ca73c05667c87090f808a7d99f027d7be253319e032c494f2a538e827323119",
+        "size_in_bytes": 5480
+      },
+      {
+        "_path": "Lib/site-packages/notebook/nbconvert/handlers.py",
+        "path_type": "hardlink",
+        "sha256": "043b8489812ee503838f223c0d52a017e4982ae532de9ee85b67b731c55659e0",
+        "sha256_in_prefix": "043b8489812ee503838f223c0d52a017e4982ae532de9ee85b67b731c55659e0",
+        "size_in_bytes": 6765
+      },
+      {
+        "_path": "Lib/site-packages/notebook/nbconvert/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/notebook/nbconvert/tests/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "1d8c279c9cf94ec883e3ac205c3235223a53f0fba3e734479a613a1d70058c95",
+        "sha256_in_prefix": "1d8c279c9cf94ec883e3ac205c3235223a53f0fba3e734479a613a1d70058c95",
+        "size_in_bytes": 147
+      },
+      {
+        "_path": "Lib/site-packages/notebook/nbconvert/tests/__pycache__/test_nbconvert_handlers.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "f2cc417414499fa005966130dfd4cbd83d7b30b40659cb12b8dfd4d4d1df850f",
+        "sha256_in_prefix": "f2cc417414499fa005966130dfd4cbd83d7b30b40659cb12b8dfd4d4d1df850f",
+        "size_in_bytes": 5341
+      },
+      {
+        "_path": "Lib/site-packages/notebook/nbconvert/tests/test_nbconvert_handlers.py",
+        "path_type": "hardlink",
+        "sha256": "38c9b694011d4acde18f00fceaaf8147efef67e24ea6d93bd5f8cc021a1d4929",
+        "sha256_in_prefix": "38c9b694011d4acde18f00fceaaf8147efef67e24ea6d93bd5f8cc021a1d4929",
+        "size_in_bytes": 5426
+      },
+      {
+        "_path": "Lib/site-packages/notebook/nbextensions.py",
+        "path_type": "hardlink",
+        "sha256": "e7fe7ef315586ea6e34b2bc39517eccfbbdf9408e96bf4bd7fd1692515492487",
+        "sha256_in_prefix": "e7fe7ef315586ea6e34b2bc39517eccfbbdf9408e96bf4bd7fd1692515492487",
+        "size_in_bytes": 40610
+      },
+      {
+        "_path": "Lib/site-packages/notebook/notebook/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/notebook/notebook/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "f1b553e5b13e48a1079fa2b366b49614637012b12a022b38c90e3d0d95aeca44",
+        "sha256_in_prefix": "f1b553e5b13e48a1079fa2b366b49614637012b12a022b38c90e3d0d95aeca44",
+        "size_in_bytes": 140
+      },
+      {
+        "_path": "Lib/site-packages/notebook/notebook/__pycache__/handlers.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "9aab8e990cb0745ee90191e2ad04f16aad082d4db35f4af0a9fc52d5d1d2576e",
+        "sha256_in_prefix": "9aab8e990cb0745ee90191e2ad04f16aad082d4db35f4af0a9fc52d5d1d2576e",
+        "size_in_bytes": 2901
+      },
+      {
+        "_path": "Lib/site-packages/notebook/notebook/handlers.py",
+        "path_type": "hardlink",
+        "sha256": "029b39a55aabe13ea0c84308c1c1ccbaeb22c9b974a36a30e73ca1d99b334a55",
+        "sha256_in_prefix": "029b39a55aabe13ea0c84308c1c1ccbaeb22c9b974a36a30e73ca1d99b334a55",
+        "size_in_bytes": 4171
+      },
+      {
+        "_path": "Lib/site-packages/notebook/notebookapp.py",
+        "path_type": "hardlink",
+        "sha256": "e9c6fd0165bc6322e4b74b7da1c2a6738ba4488e5ec9ca42314e4b63f42219c6",
+        "sha256_in_prefix": "e9c6fd0165bc6322e4b74b7da1c2a6738ba4488e5ec9ca42314e4b63f42219c6",
+        "size_in_bytes": 95820
+      },
+      {
+        "_path": "Lib/site-packages/notebook/prometheus/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4ba5d3c9ba04d895967fa3a42b64d08569d6c7bab068c81f95520df2257f557d",
+        "sha256_in_prefix": "4ba5d3c9ba04d895967fa3a42b64d08569d6c7bab068c81f95520df2257f557d",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "Lib/site-packages/notebook/prometheus/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "a54fd100874931070d9a0246eb1872f80ea3d970ad9bb8fd660a6511a97247cc",
+        "sha256_in_prefix": "a54fd100874931070d9a0246eb1872f80ea3d970ad9bb8fd660a6511a97247cc",
+        "size_in_bytes": 252
+      },
+      {
+        "_path": "Lib/site-packages/notebook/prometheus/__pycache__/log_functions.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "f34ffbf9c53af8e45321961542e64cea3308168c0b96262881f8a59858aa24f0",
+        "sha256_in_prefix": "f34ffbf9c53af8e45321961542e64cea3308168c0b96262881f8a59858aa24f0",
+        "size_in_bytes": 1196
+      },
+      {
+        "_path": "Lib/site-packages/notebook/prometheus/__pycache__/metrics.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "135d89680af699bbdd6807b7cb3128097cbb7aefd2d7bd96d2814a16593351f4",
+        "sha256_in_prefix": "135d89680af699bbdd6807b7cb3128097cbb7aefd2d7bd96d2814a16593351f4",
+        "size_in_bytes": 822
+      },
+      {
+        "_path": "Lib/site-packages/notebook/prometheus/log_functions.py",
+        "path_type": "hardlink",
+        "sha256": "d3cce5d860ce02753345cef16b70673514dbd0a72d35a01fd5ee7c82da4b14b6",
+        "sha256_in_prefix": "d3cce5d860ce02753345cef16b70673514dbd0a72d35a01fd5ee7c82da4b14b6",
+        "size_in_bytes": 1011
+      },
+      {
+        "_path": "Lib/site-packages/notebook/prometheus/metrics.py",
+        "path_type": "hardlink",
+        "sha256": "8b7db12d5cda9ceb31466a7ebc3d78bb8a7fe7cc182a1684b336bece1a1c265c",
+        "sha256_in_prefix": "8b7db12d5cda9ceb31466a7ebc3d78bb8a7fe7cc182a1684b336bece1a1c265c",
+        "size_in_bytes": 676
+      },
+      {
+        "_path": "Lib/site-packages/notebook/serverextensions.py",
+        "path_type": "hardlink",
+        "sha256": "af8d3b1fd9bd4307137847ef7a9e65b885d82bb9c4271b821b396e35e75df787",
+        "sha256_in_prefix": "af8d3b1fd9bd4307137847ef7a9e65b885d82bb9c4271b821b396e35e75df787",
+        "size_in_bytes": 10901
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "c884ec02b1fce5e9716cb4774fb27da2f1fe70403021ff0a3c404d64734a4ecf",
+        "sha256_in_prefix": "c884ec02b1fce5e9716cb4774fb27da2f1fe70403021ff0a3c404d64734a4ecf",
+        "size_in_bytes": 140
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/__pycache__/shutdown.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "bbaec10be7363576804e3007891007ac26a7ca422d29013c600667a5bf6c832f",
+        "sha256_in_prefix": "bbaec10be7363576804e3007891007ac26a7ca422d29013c600667a5bf6c832f",
+        "size_in_bytes": 780
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/api/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/api/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "2b1fcb3d846608c6bb6e7e80b0ce41b5609e2ff0c8172f8d5e4f0e687b90103a",
+        "sha256_in_prefix": "2b1fcb3d846608c6bb6e7e80b0ce41b5609e2ff0c8172f8d5e4f0e687b90103a",
+        "size_in_bytes": 144
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/api/__pycache__/handlers.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "5dd0fe58458a8176fffba68f329058f473a5e43c6ad797ab9414942c951cf71c",
+        "sha256_in_prefix": "5dd0fe58458a8176fffba68f329058f473a5e43c6ad797ab9414942c951cf71c",
+        "size_in_bytes": 2175
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/api/api.yaml",
+        "path_type": "hardlink",
+        "sha256": "20808d903d61beeda38b33598adc13e685f3b65d9f4bb7e07729c48f012aa174",
+        "sha256_in_prefix": "20808d903d61beeda38b33598adc13e685f3b65d9f4bb7e07729c48f012aa174",
+        "size_in_bytes": 24458
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/api/handlers.py",
+        "path_type": "hardlink",
+        "sha256": "29e99de06d982adf1ad963ec95beadfaea0b06be8a83e9f97e290234c5819afa",
+        "sha256_in_prefix": "29e99de06d982adf1ad963ec95beadfaea0b06be8a83e9f97e290234c5819afa",
+        "size_in_bytes": 1597
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/api/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/api/tests/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "9c3de257faabd74f8e93f0911a6de4aff336918b9d71a31b9e6aacfa3c079948",
+        "sha256_in_prefix": "9c3de257faabd74f8e93f0911a6de4aff336918b9d71a31b9e6aacfa3c079948",
+        "size_in_bytes": 150
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/api/tests/__pycache__/test_api.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "aaad38c7cbd9d480557abeae728a4952acb641ca8e94986b667c5fe8e52c0ff1",
+        "sha256_in_prefix": "aaad38c7cbd9d480557abeae728a4952acb641ca8e94986b667c5fe8e52c0ff1",
+        "size_in_bytes": 1902
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/api/tests/test_api.py",
+        "path_type": "hardlink",
+        "sha256": "555dd59a514ad2810b1997e15c99ef6b88d4426271b819693775c3b454180941",
+        "sha256_in_prefix": "555dd59a514ad2810b1997e15c99ef6b88d4426271b819693775c3b454180941",
+        "size_in_bytes": 1615
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/config/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "52e270bfe8185c28ab090d789ec21ff654ae8d2734e72945a1b54f13d3debd4b",
+        "sha256_in_prefix": "52e270bfe8185c28ab090d789ec21ff654ae8d2734e72945a1b54f13d3debd4b",
+        "size_in_bytes": 35
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/config/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "60fe3449c8b5dad2bacd64bd9ba95a7af4c437c299e5af9c3221133b90e76552",
+        "sha256_in_prefix": "60fe3449c8b5dad2bacd64bd9ba95a7af4c437c299e5af9c3221133b90e76552",
+        "size_in_bytes": 192
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/config/__pycache__/handlers.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "260fdbaa89e5420a8271cbe57e29391e7f7f25874a168ff8749458a96fc230b5",
+        "sha256_in_prefix": "260fdbaa89e5420a8271cbe57e29391e7f7f25874a168ff8749458a96fc230b5",
+        "size_in_bytes": 1283
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/config/__pycache__/manager.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "71f0fabfdd15d5dda856ce290ba39410a61e75f700e5547e7915e49f2718701a",
+        "sha256_in_prefix": "71f0fabfdd15d5dda856ce290ba39410a61e75f700e5547e7915e49f2718701a",
+        "size_in_bytes": 2591
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/config/handlers.py",
+        "path_type": "hardlink",
+        "sha256": "aea4bc297fa749d35362b659a23d18c4b6c210a28c2b00a7c61952c205f26f1b",
+        "sha256_in_prefix": "aea4bc297fa749d35362b659a23d18c4b6c210a28c2b00a7c61952c205f26f1b",
+        "size_in_bytes": 1041
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/config/manager.py",
+        "path_type": "hardlink",
+        "sha256": "8bd6e640475c6c1300e77ca9e902b5fbce7323a8d68da58ff683875d740912e9",
+        "sha256_in_prefix": "8bd6e640475c6c1300e77ca9e902b5fbce7323a8d68da58ff683875d740912e9",
+        "size_in_bytes": 2056
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/config/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/config/tests/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "d777ff1ae93205e29962b260fe0bba8a0a207d629b358badfe9ff983fa5943d9",
+        "sha256_in_prefix": "d777ff1ae93205e29962b260fe0bba8a0a207d629b358badfe9ff983fa5943d9",
+        "size_in_bytes": 153
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/config/tests/__pycache__/test_config_api.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "0589e7978768e9890e27e3ea80eb4bf90eb0fd11886c44f4ac947e074d8c8d04",
+        "sha256_in_prefix": "0589e7978768e9890e27e3ea80eb4bf90eb0fd11886c44f4ac947e074d8c8d04",
+        "size_in_bytes": 2682
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/config/tests/test_config_api.py",
+        "path_type": "hardlink",
+        "sha256": "6860cbf7b8c530f11e47d14b4c8cb35e0acd94acdc0dd94a2735d6b0515465a2",
+        "sha256_in_prefix": "6860cbf7b8c530f11e47d14b4c8cb35e0acd94acdc0dd94a2735d6b0515465a2",
+        "size_in_bytes": 2252
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/contents/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/contents/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "886d47f395e33dff4e5897c7059e0fabedae09f6af4c4ab69106c723da97861b",
+        "sha256_in_prefix": "886d47f395e33dff4e5897c7059e0fabedae09f6af4c4ab69106c723da97861b",
+        "size_in_bytes": 149
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/contents/__pycache__/checkpoints.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "da9e11d1ce92de8937a1f9762f57705d96ef28a486f7b6fa215a04f7f1daf715",
+        "sha256_in_prefix": "da9e11d1ce92de8937a1f9762f57705d96ef28a486f7b6fa215a04f7f1daf715",
+        "size_in_bytes": 5260
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/contents/__pycache__/filecheckpoints.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "a7baa0e62be72cc4e1fa5fd743537f223435601ab605c87e2ba5e03dbe78cd94",
+        "sha256_in_prefix": "a7baa0e62be72cc4e1fa5fd743537f223435601ab605c87e2ba5e03dbe78cd94",
+        "size_in_bytes": 6345
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/contents/__pycache__/fileio.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "7b244b662871b78c8e440f4f911aa774d7b8ef25a1dcc4fed0407b05cd1d8d6a",
+        "sha256_in_prefix": "7b244b662871b78c8e440f4f911aa774d7b8ef25a1dcc4fed0407b05cd1d8d6a",
+        "size_in_bytes": 9845
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/contents/__pycache__/filemanager.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "02e8d9c23f1e648b1f662d768c3df48adacef29fb733995fbed827853f118e39",
+        "sha256_in_prefix": "02e8d9c23f1e648b1f662d768c3df48adacef29fb733995fbed827853f118e39",
+        "size_in_bytes": 18377
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/contents/__pycache__/handlers.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "dcf76873787cab7bcab6fbc2a9291dfe7acff8ed3c6b7239c1dcaa720197f75a",
+        "sha256_in_prefix": "dcf76873787cab7bcab6fbc2a9291dfe7acff8ed3c6b7239c1dcaa720197f75a",
+        "size_in_bytes": 10853
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/contents/__pycache__/largefilemanager.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "beb6589ad10617e9d45e2456756bf474bb0e5724a9f687c9753845c2b01f61af",
+        "sha256_in_prefix": "beb6589ad10617e9d45e2456756bf474bb0e5724a9f687c9753845c2b01f61af",
+        "size_in_bytes": 2397
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/contents/__pycache__/manager.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "a1057b243716991326cb8dee982e32bee50958df113527ac120dfe37a2b0f459",
+        "sha256_in_prefix": "a1057b243716991326cb8dee982e32bee50958df113527ac120dfe37a2b0f459",
+        "size_in_bytes": 16660
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/contents/checkpoints.py",
+        "path_type": "hardlink",
+        "sha256": "a73e62c6852c14b0afa0441f9f3ffdf4d61526f4f70a197ebb33955e19d595da",
+        "sha256_in_prefix": "a73e62c6852c14b0afa0441f9f3ffdf4d61526f4f70a197ebb33955e19d595da",
+        "size_in_bytes": 5100
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/contents/filecheckpoints.py",
+        "path_type": "hardlink",
+        "sha256": "cc13f7fdd81d1a4030abe68a8809acb13406e9e107b0007ca20f092ac9d680c8",
+        "sha256_in_prefix": "cc13f7fdd81d1a4030abe68a8809acb13406e9e107b0007ca20f092ac9d680c8",
+        "size_in_bytes": 6833
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/contents/fileio.py",
+        "path_type": "hardlink",
+        "sha256": "0cc897c44eda2a9c538f68c7c55e71eb5688a39aff996a37034766f6212690e1",
+        "sha256_in_prefix": "0cc897c44eda2a9c538f68c7c55e71eb5688a39aff996a37034766f6212690e1",
+        "size_in_bytes": 11288
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/contents/filemanager.py",
+        "path_type": "hardlink",
+        "sha256": "fece2e4b17bc29dca79a26c2eb104a274a4f1891d6271a2d6cccccde9d7f2b4a",
+        "sha256_in_prefix": "fece2e4b17bc29dca79a26c2eb104a274a4f1891d6271a2d6cccccde9d7f2b4a",
+        "size_in_bytes": 23022
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/contents/handlers.py",
+        "path_type": "hardlink",
+        "sha256": "db27022ee8fe012ed63fe176b33196803d554b461fd2da9b0783c5d7f58754c6",
+        "sha256_in_prefix": "db27022ee8fe012ed63fe176b33196803d554b461fd2da9b0783c5d7f58754c6",
+        "size_in_bytes": 12048
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/contents/largefilemanager.py",
+        "path_type": "hardlink",
+        "sha256": "58d05f38d4ea82f4fb28cf0c2dbbea5cbe427f30041ee1faf6a2219be671ca24",
+        "sha256_in_prefix": "58d05f38d4ea82f4fb28cf0c2dbbea5cbe427f30041ee1faf6a2219be671ca24",
+        "size_in_bytes": 2679
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/contents/manager.py",
+        "path_type": "hardlink",
+        "sha256": "8c8fb385364868df807840c012257f3339b107c2584192c99caf5984aa730cfb",
+        "sha256_in_prefix": "8c8fb385364868df807840c012257f3339b107c2584192c99caf5984aa730cfb",
+        "size_in_bytes": 16665
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/contents/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/contents/tests/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "5b5bdb28dfdbbe0c057459f62d503f5c901426192bf9384e061797ace28fd454",
+        "sha256_in_prefix": "5b5bdb28dfdbbe0c057459f62d503f5c901426192bf9384e061797ace28fd454",
+        "size_in_bytes": 155
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/contents/tests/__pycache__/test_contents_api.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "ff30ae256b82dc60d8c0d189bc93d5d4bf21c1bcc3c825f70ad0adb38740637f",
+        "sha256_in_prefix": "ff30ae256b82dc60d8c0d189bc93d5d4bf21c1bcc3c825f70ad0adb38740637f",
+        "size_in_bytes": 28345
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/contents/tests/__pycache__/test_fileio.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "cd0be525357ad5839089062789aca8a032086cf730668da05adbb45e74d81e32",
+        "sha256_in_prefix": "cd0be525357ad5839089062789aca8a032086cf730668da05adbb45e74d81e32",
+        "size_in_bytes": 3741
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/contents/tests/__pycache__/test_largefilemanager.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "31badbe51ec561f77dcd72111ce9bcfc3c0daaafd4563babc4588a09d3f99e97",
+        "sha256_in_prefix": "31badbe51ec561f77dcd72111ce9bcfc3c0daaafd4563babc4588a09d3f99e97",
+        "size_in_bytes": 3151
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/contents/tests/__pycache__/test_manager.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "d2f97007440f99d26098e3c5d4a0a693f90f9c11cf2a75777c6e99cb228df149",
+        "sha256_in_prefix": "d2f97007440f99d26098e3c5d4a0a693f90f9c11cf2a75777c6e99cb228df149",
+        "size_in_bytes": 21345
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/contents/tests/test_contents_api.py",
+        "path_type": "hardlink",
+        "sha256": "9672b7865a79e9a9ec98bdc2d02eb98c84f2660987870832b6c36c17de51e149",
+        "sha256_in_prefix": "9672b7865a79e9a9ec98bdc2d02eb98c84f2660987870832b6c36c17de51e149",
+        "size_in_bytes": 31116
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/contents/tests/test_fileio.py",
+        "path_type": "hardlink",
+        "sha256": "523d61e3c91e48629abeafaa6ee2b9ee52df22ba745d37649cab7dc5c5935069",
+        "sha256_in_prefix": "523d61e3c91e48629abeafaa6ee2b9ee52df22ba745d37649cab7dc5c5935069",
+        "size_in_bytes": 3773
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/contents/tests/test_largefilemanager.py",
+        "path_type": "hardlink",
+        "sha256": "7568f89d05e29bb1aaa120a8a84d8ffe40412570f1c94105d9fe426caab85ab3",
+        "sha256_in_prefix": "7568f89d05e29bb1aaa120a8a84d8ffe40412570f1c94105d9fe426caab85ab3",
+        "size_in_bytes": 4012
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/contents/tests/test_manager.py",
+        "path_type": "hardlink",
+        "sha256": "aa48d43327180b8b16c59d9c302c6d075be050d76ac130aece56656b747ba466",
+        "sha256_in_prefix": "aa48d43327180b8b16c59d9c302c6d075be050d76ac130aece56656b747ba466",
+        "size_in_bytes": 31610
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/kernels/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/kernels/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "eedd0859191dbddaa274fd1cb40b4aa9b8be251326a4b6058b8126b462bb4f49",
+        "sha256_in_prefix": "eedd0859191dbddaa274fd1cb40b4aa9b8be251326a4b6058b8126b462bb4f49",
+        "size_in_bytes": 148
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/kernels/__pycache__/handlers.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "e5728ce2015fb7e305322bf07c4560034d2715bcf91762a4bd17ea986cb75bf9",
+        "sha256_in_prefix": "e5728ce2015fb7e305322bf07c4560034d2715bcf91762a4bd17ea986cb75bf9",
+        "size_in_bytes": 18886
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/kernels/__pycache__/kernelmanager.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "ae09142584ab599bb96912b063543cc6497f819ed892a1de06d9e6cb8d08de9e",
+        "sha256_in_prefix": "ae09142584ab599bb96912b063543cc6497f819ed892a1de06d9e6cb8d08de9e",
+        "size_in_bytes": 17651
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/kernels/handlers.py",
+        "path_type": "hardlink",
+        "sha256": "176d4e7a7116aa308aa0cac1fc53c488353f6dcd11e441f7dacf23a20e6cd5e3",
+        "sha256_in_prefix": "176d4e7a7116aa308aa0cac1fc53c488353f6dcd11e441f7dacf23a20e6cd5e3",
+        "size_in_bytes": 26463
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/kernels/kernelmanager.py",
+        "path_type": "hardlink",
+        "sha256": "33592635bce6d1aabd6c12ece21f27b9703ad5b2538ef539aed81472e3a4483a",
+        "sha256_in_prefix": "33592635bce6d1aabd6c12ece21f27b9703ad5b2538ef539aed81472e3a4483a",
+        "size_in_bytes": 22122
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/kernels/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/kernels/tests/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "36f19f809d92130acce79449e1278d3323b2605ff7cfc7f260935bb61bca5843",
+        "sha256_in_prefix": "36f19f809d92130acce79449e1278d3323b2605ff7cfc7f260935bb61bca5843",
+        "size_in_bytes": 154
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/kernels/tests/__pycache__/test_kernels_api.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "7a22dadafdb08a06b285582c04070672be1e8a5c1d4ffb5df6dd9e86a244a577",
+        "sha256_in_prefix": "7a22dadafdb08a06b285582c04070672be1e8a5c1d4ffb5df6dd9e86a244a577",
+        "size_in_bytes": 8960
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/kernels/tests/test_kernels_api.py",
+        "path_type": "hardlink",
+        "sha256": "68730efd5fa01adae22a1b52e894865be673a429c724a00b170511ccbd00462a",
+        "sha256_in_prefix": "68730efd5fa01adae22a1b52e894865be673a429c724a00b170511ccbd00462a",
+        "size_in_bytes": 9675
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/kernelspecs/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/kernelspecs/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "9efb41923e8f61ffc53ebeddf38e0519ec8a1b45b73a2501ce2757e9d34a2b71",
+        "sha256_in_prefix": "9efb41923e8f61ffc53ebeddf38e0519ec8a1b45b73a2501ce2757e9d34a2b71",
+        "size_in_bytes": 152
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/kernelspecs/__pycache__/handlers.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "38d99540da9fa8f4c662d45bcab528d0f3b28d99e513c5858720ac2a06a89a2d",
+        "sha256_in_prefix": "38d99540da9fa8f4c662d45bcab528d0f3b28d99e513c5858720ac2a06a89a2d",
+        "size_in_bytes": 3005
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/kernelspecs/handlers.py",
+        "path_type": "hardlink",
+        "sha256": "759195bc4d0aede0dd74291085ad9365e73b0d2c6e61166c1e3807af4724a933",
+        "sha256_in_prefix": "759195bc4d0aede0dd74291085ad9365e73b0d2c6e61166c1e3807af4724a933",
+        "size_in_bytes": 3392
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/kernelspecs/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/kernelspecs/tests/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "2740016ae82b87ddfe7c08ffd903011771f35a1e31470ad0e5c7beb5d60779e5",
+        "sha256_in_prefix": "2740016ae82b87ddfe7c08ffd903011771f35a1e31470ad0e5c7beb5d60779e5",
+        "size_in_bytes": 158
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/kernelspecs/tests/__pycache__/test_kernelspecs_api.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "c1f37f79687f84522afb74c7bca122f0275cfeb3c9a3752a0ca4de4a428c60a3",
+        "sha256_in_prefix": "c1f37f79687f84522afb74c7bca122f0275cfeb3c9a3752a0ca4de4a428c60a3",
+        "size_in_bytes": 5792
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/kernelspecs/tests/test_kernelspecs_api.py",
+        "path_type": "hardlink",
+        "sha256": "d9af0a89de38d0125efb32b81daa07577f28c0a08e397a55c7d2dbce38ad272b",
+        "sha256_in_prefix": "d9af0a89de38d0125efb32b81daa07577f28c0a08e397a55c7d2dbce38ad272b",
+        "size_in_bytes": 4637
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/nbconvert/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/nbconvert/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "9cfd3396d2d38a1333b274713d9e54065711ba41bc152772001238557e8e13e6",
+        "sha256_in_prefix": "9cfd3396d2d38a1333b274713d9e54065711ba41bc152772001238557e8e13e6",
+        "size_in_bytes": 150
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/nbconvert/__pycache__/handlers.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "81bbc08a09f78614ce10c4025a68c423ea6fc9a3bba00183a03a81b47b1d6223",
+        "sha256_in_prefix": "81bbc08a09f78614ce10c4025a68c423ea6fc9a3bba00183a03a81b47b1d6223",
+        "size_in_bytes": 1071
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/nbconvert/handlers.py",
+        "path_type": "hardlink",
+        "sha256": "33279f7e1c6d628c2ba7dace12d5e273bbb688312d6f7f45585411b92717069a",
+        "sha256_in_prefix": "33279f7e1c6d628c2ba7dace12d5e273bbb688312d6f7f45585411b92717069a",
+        "size_in_bytes": 1313
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/nbconvert/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/nbconvert/tests/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "a2ef2163460ed50719abf605a0d0cf51124d946716d667a7868b2c6820320edd",
+        "sha256_in_prefix": "a2ef2163460ed50719abf605a0d0cf51124d946716d667a7868b2c6820320edd",
+        "size_in_bytes": 156
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/nbconvert/tests/__pycache__/test_nbconvert_api.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "b7fbc7c8cfbd97fbb8f3ae567c2a0f8ab7107839f6a60e474bda4c471534176f",
+        "sha256_in_prefix": "b7fbc7c8cfbd97fbb8f3ae567c2a0f8ab7107839f6a60e474bda4c471534176f",
+        "size_in_bytes": 1647
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/nbconvert/tests/test_nbconvert_api.py",
+        "path_type": "hardlink",
+        "sha256": "5a1f777b24b7b6f12f266ef3d8a26a8b7cac280c5b63f30f1eaa2d22128a73c1",
+        "sha256_in_prefix": "5a1f777b24b7b6f12f266ef3d8a26a8b7cac280c5b63f30f1eaa2d22128a73c1",
+        "size_in_bytes": 962
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/security/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "194c705d819c4590a4cbe930201ad64b061654026f3257e4086a8ee730aaf4eb",
+        "sha256_in_prefix": "194c705d819c4590a4cbe930201ad64b061654026f3257e4086a8ee730aaf4eb",
+        "size_in_bytes": 263
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/security/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "1354e9dbc807adbfa21dfd192a20366c029b023ae1bc0af5f00e0d37041ad666",
+        "sha256_in_prefix": "1354e9dbc807adbfa21dfd192a20366c029b023ae1bc0af5f00e0d37041ad666",
+        "size_in_bytes": 192
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/security/__pycache__/handlers.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "e3b1356bfb05aebce2dee5e477a85d0f689efa1c07491ef58848bfe5e787462e",
+        "sha256_in_prefix": "e3b1356bfb05aebce2dee5e477a85d0f689efa1c07491ef58848bfe5e787462e",
+        "size_in_bytes": 1271
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/security/handlers.py",
+        "path_type": "hardlink",
+        "sha256": "249a7581a9bf1d09716b0c392ac969cdd43a0608c024f1d3f6e93bf1f877af91",
+        "sha256_in_prefix": "249a7581a9bf1d09716b0c392ac969cdd43a0608c024f1d3f6e93bf1f877af91",
+        "size_in_bytes": 882
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/sessions/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/sessions/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "81ff5e2d5252cf847e5b5978cc6980907be007433cce334d4b90c6b0381b5220",
+        "sha256_in_prefix": "81ff5e2d5252cf847e5b5978cc6980907be007433cce334d4b90c6b0381b5220",
+        "size_in_bytes": 149
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/sessions/__pycache__/handlers.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "6c67cab3e1f33443e6a53a92f5e87ddf260310a8a9c5cded267427abfe5a4555",
+        "sha256_in_prefix": "6c67cab3e1f33443e6a53a92f5e87ddf260310a8a9c5cded267427abfe5a4555",
+        "size_in_bytes": 4678
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/sessions/__pycache__/sessionmanager.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "5843ad49efb310d8144f70d8f65a54ede4ba52fb8f56c0ce8948d8c983a5e815",
+        "sha256_in_prefix": "5843ad49efb310d8144f70d8f65a54ede4ba52fb8f56c0ce8948d8c983a5e815",
+        "size_in_bytes": 8754
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/sessions/handlers.py",
+        "path_type": "hardlink",
+        "sha256": "c38485f225d6cf52c76399e155912d6502a5a5b65d1de4ea4719a0824ce4bb9c",
+        "sha256_in_prefix": "c38485f225d6cf52c76399e155912d6502a5a5b65d1de4ea4719a0824ce4bb9c",
+        "size_in_bytes": 6669
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/sessions/sessionmanager.py",
+        "path_type": "hardlink",
+        "sha256": "e62732eda69578e52a612dbffdf77c54f7d2f9683bbd5ca701c723e587c20602",
+        "sha256_in_prefix": "e62732eda69578e52a612dbffdf77c54f7d2f9683bbd5ca701c723e587c20602",
+        "size_in_bytes": 11126
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/sessions/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/sessions/tests/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "bbf777476b2fa9d2f01b13dc7556bb879d591a140667d090b913b6d735401c37",
+        "sha256_in_prefix": "bbf777476b2fa9d2f01b13dc7556bb879d591a140667d090b913b6d735401c37",
+        "size_in_bytes": 155
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/sessions/tests/__pycache__/test_sessionmanager.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "9879c094445f035de17af12250424aa32074e0d8661b08a2bc076140985b5b26",
+        "sha256_in_prefix": "9879c094445f035de17af12250424aa32074e0d8661b08a2bc076140985b5b26",
+        "size_in_bytes": 8878
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/sessions/tests/__pycache__/test_sessions_api.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "12548b9212d6bfeb42f7b18b55a42d4f3c6875a82f9618928a6e30c62999984d",
+        "sha256_in_prefix": "12548b9212d6bfeb42f7b18b55a42d4f3c6875a82f9618928a6e30c62999984d",
+        "size_in_bytes": 9504
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/sessions/tests/test_sessionmanager.py",
+        "path_type": "hardlink",
+        "sha256": "bc81120e22cc2d4fa2272467dc566929f3b3e58e78589ed9b738e9f253cecfd7",
+        "sha256_in_prefix": "bc81120e22cc2d4fa2272467dc566929f3b3e58e78589ed9b738e9f253cecfd7",
+        "size_in_bytes": 9950
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/sessions/tests/test_sessions_api.py",
+        "path_type": "hardlink",
+        "sha256": "01fdf51f32a21a61ff4651cca3aa24973acce8a7303f58b6b0d824ed48de4632",
+        "sha256_in_prefix": "01fdf51f32a21a61ff4651cca3aa24973acce8a7303f58b6b0d824ed48de4632",
+        "size_in_bytes": 10399
+      },
+      {
+        "_path": "Lib/site-packages/notebook/services/shutdown.py",
+        "path_type": "hardlink",
+        "sha256": "f6b29fcc5ebf5b4f5c17ca47d77b19a54df7abd3703f30f26cb4ac07d286afc4",
+        "sha256_in_prefix": "f6b29fcc5ebf5b4f5c17ca47d77b19a54df7abd3703f30f26cb4ac07d286afc4",
+        "size_in_bytes": 389
+      },
+      {
+        "_path": "Lib/site-packages/notebook/templates/404.html",
+        "path_type": "hardlink",
+        "sha256": "0d71879c5e934bf1fe5ec4f03a76c8ea3408bb6b41b0d02d5a5b910c911c4a82",
+        "sha256_in_prefix": "0d71879c5e934bf1fe5ec4f03a76c8ea3408bb6b41b0d02d5a5b910c911c4a82",
+        "size_in_bytes": 147
+      },
+      {
+        "_path": "Lib/site-packages/notebook/templates/browser-open.html",
+        "path_type": "hardlink",
+        "sha256": "78b12c02b1ca45a3e02f1a02d2605e8b2a5cdb66885abc0f7829b1f162cfec9c",
+        "sha256_in_prefix": "78b12c02b1ca45a3e02f1a02d2605e8b2a5cdb66885abc0f7829b1f162cfec9c",
+        "size_in_bytes": 621
+      },
+      {
+        "_path": "Lib/site-packages/notebook/templates/edit.html",
+        "path_type": "hardlink",
+        "sha256": "823ccab2261135119dba15f655026f9b46630c08c66a4e057760e0bc2c603807",
+        "sha256_in_prefix": "823ccab2261135119dba15f655026f9b46630c08c66a4e057760e0bc2c603807",
+        "size_in_bytes": 4270
+      },
+      {
+        "_path": "Lib/site-packages/notebook/templates/error.html",
+        "path_type": "hardlink",
+        "sha256": "bb8eeeadc0a422ecfb4cb96facb137b63067ffff8fad2fcfc196886bf949b509",
+        "sha256_in_prefix": "bb8eeeadc0a422ecfb4cb96facb137b63067ffff8fad2fcfc196886bf949b509",
+        "size_in_bytes": 856
+      },
+      {
+        "_path": "Lib/site-packages/notebook/templates/login.html",
+        "path_type": "hardlink",
+        "sha256": "6a5556322d812de4bdb5c014235ac2c1e4d9d8fc29190fc4ff9ed2841c7cc379",
+        "sha256_in_prefix": "6a5556322d812de4bdb5c014235ac2c1e4d9d8fc29190fc4ff9ed2841c7cc379",
+        "size_in_bytes": 4256
+      },
+      {
+        "_path": "Lib/site-packages/notebook/templates/logout.html",
+        "path_type": "hardlink",
+        "sha256": "d70e5628bed5d36482e4b8ffa4cd1012c1bd5a9fc30ec29e3c82c37351494c3f",
+        "sha256_in_prefix": "d70e5628bed5d36482e4b8ffa4cd1012c1bd5a9fc30ec29e3c82c37351494c3f",
+        "size_in_bytes": 1179
+      },
+      {
+        "_path": "Lib/site-packages/notebook/templates/notebook.html",
+        "path_type": "hardlink",
+        "sha256": "b5efa6057f34dd2506ac12c423dd260e516b7ee086117c6579f2fdb5c37ce46c",
+        "sha256_in_prefix": "b5efa6057f34dd2506ac12c423dd260e516b7ee086117c6579f2fdb5c37ce46c",
+        "size_in_bytes": 25488
+      },
+      {
+        "_path": "Lib/site-packages/notebook/templates/page.html",
+        "path_type": "hardlink",
+        "sha256": "6dcda72831d8bef4efb7864caf971e3032d50c30336a466dab95117a5cd6842a",
+        "sha256_in_prefix": "6dcda72831d8bef4efb7864caf971e3032d50c30336a466dab95117a5cd6842a",
+        "size_in_bytes": 7086
+      },
+      {
+        "_path": "Lib/site-packages/notebook/templates/terminal.html",
+        "path_type": "hardlink",
+        "sha256": "c24ab72154729f69e2c7ada56c29ae867e0b4c3b4c43f40eafe84f6d9d07635f",
+        "sha256_in_prefix": "c24ab72154729f69e2c7ada56c29ae867e0b4c3b4c43f40eafe84f6d9d07635f",
+        "size_in_bytes": 1101
+      },
+      {
+        "_path": "Lib/site-packages/notebook/templates/tree.html",
+        "path_type": "hardlink",
+        "sha256": "5093693b176e3673037e3197a306984fcb2c2053c537c6f675d8e9afbfc52690",
+        "sha256_in_prefix": "5093693b176e3673037e3197a306984fcb2c2053c537c6f675d8e9afbfc52690",
+        "size_in_bytes": 13870
+      },
+      {
+        "_path": "Lib/site-packages/notebook/templates/view.html",
+        "path_type": "hardlink",
+        "sha256": "58da9b2af47ee0af30acf3f6cb813a4dd7bffc90eb11bc754cd0a842fa9a041e",
+        "sha256_in_prefix": "58da9b2af47ee0af30acf3f6cb813a4dd7bffc90eb11bc754cd0a842fa9a041e",
+        "size_in_bytes": 544
+      },
+      {
+        "_path": "Lib/site-packages/notebook/terminal/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b8ea31cbdc53ec2e25b5c08fcebde145008220df21e3b9e157b098e6721fb4c5",
+        "sha256_in_prefix": "b8ea31cbdc53ec2e25b5c08fcebde145008220df21e3b9e157b098e6721fb4c5",
+        "size_in_bytes": 2203
+      },
+      {
+        "_path": "Lib/site-packages/notebook/terminal/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "39d774f8988553753312a4f87fd43ad24d6488a5d9d6a0df4ed293377fb2d98f",
+        "sha256_in_prefix": "39d774f8988553753312a4f87fd43ad24d6488a5d9d6a0df4ed293377fb2d98f",
+        "size_in_bytes": 1648
+      },
+      {
+        "_path": "Lib/site-packages/notebook/terminal/__pycache__/api_handlers.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "4b93e75679aeae818358ae800b766cb5ff2e81f96ec33bc57799e808e5aef0c7",
+        "sha256_in_prefix": "4b93e75679aeae818358ae800b766cb5ff2e81f96ec33bc57799e808e5aef0c7",
+        "size_in_bytes": 1536
+      },
+      {
+        "_path": "Lib/site-packages/notebook/terminal/__pycache__/handlers.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "ef2c3c8435f4e62047c09c07f8eeffdc1792521c3b30c7a365c1a5bc235008e1",
+        "sha256_in_prefix": "ef2c3c8435f4e62047c09c07f8eeffdc1792521c3b30c7a365c1a5bc235008e1",
+        "size_in_bytes": 3306
+      },
+      {
+        "_path": "Lib/site-packages/notebook/terminal/__pycache__/terminalmanager.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "53d78bbce5fd4b705712d40220174965d2abc05ae538b94d0bbe0254e15a39a6",
+        "sha256_in_prefix": "53d78bbce5fd4b705712d40220174965d2abc05ae538b94d0bbe0254e15a39a6",
+        "size_in_bytes": 5833
+      },
+      {
+        "_path": "Lib/site-packages/notebook/terminal/api_handlers.py",
+        "path_type": "hardlink",
+        "sha256": "89b762dbf9ab9b8127c6c4075b314755cd71b7a62802d7e13155ab3da7100b34",
+        "sha256_in_prefix": "89b762dbf9ab9b8127c6c4075b314755cd71b7a62802d7e13155ab3da7100b34",
+        "size_in_bytes": 853
+      },
+      {
+        "_path": "Lib/site-packages/notebook/terminal/handlers.py",
+        "path_type": "hardlink",
+        "sha256": "cb114d920ef151231f46c9e667047d16274b215c51146ed23a5d2e0be08a632a",
+        "sha256_in_prefix": "cb114d920ef151231f46c9e667047d16274b215c51146ed23a5d2e0be08a632a",
+        "size_in_bytes": 2727
+      },
+      {
+        "_path": "Lib/site-packages/notebook/terminal/terminalmanager.py",
+        "path_type": "hardlink",
+        "sha256": "cf6ec6f9a7ecbf6d230992ed6fe32e40cbf5579ff887ee8bb1d50fbbdf499fec",
+        "sha256_in_prefix": "cf6ec6f9a7ecbf6d230992ed6fe32e40cbf5579ff887ee8bb1d50fbbdf499fec",
+        "size_in_bytes": 6622
+      },
+      {
+        "_path": "Lib/site-packages/notebook/terminal/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/notebook/terminal/tests/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "8b9e1163498852e6030c6b38d3e2ecb9c0906df9d86cc9c91f899f810ec79acb",
+        "sha256_in_prefix": "8b9e1163498852e6030c6b38d3e2ecb9c0906df9d86cc9c91f899f810ec79acb",
+        "size_in_bytes": 146
+      },
+      {
+        "_path": "Lib/site-packages/notebook/terminal/tests/__pycache__/test_terminals_api.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "3f1c2b27ae5a9028e90d64326521598d484e3c42ab39e4c5f5f6f5b7548b8644",
+        "sha256_in_prefix": "3f1c2b27ae5a9028e90d64326521598d484e3c42ab39e4c5f5f6f5b7548b8644",
+        "size_in_bytes": 6537
+      },
+      {
+        "_path": "Lib/site-packages/notebook/terminal/tests/test_terminals_api.py",
+        "path_type": "hardlink",
+        "sha256": "fbb13c4acb4a306198cae92b1dd3cedbb2351897453cbbb70867b82ada1128f3",
+        "sha256_in_prefix": "fbb13c4acb4a306198cae92b1dd3cedbb2351897453cbbb70867b82ada1128f3",
+        "size_in_bytes": 8173
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "01e54c76a16889820a0c778426d885685cd8b87e213e0862979a109b2f5f9d58",
+        "sha256_in_prefix": "01e54c76a16889820a0c778426d885685cd8b87e213e0862979a109b2f5f9d58",
+        "size_in_bytes": 137
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/__pycache__/conftest.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "518ba57f5a9ce2dad2aac6375e9152a88cfb3fbc2bf740730272357b1b5e4fe5",
+        "sha256_in_prefix": "518ba57f5a9ce2dad2aac6375e9152a88cfb3fbc2bf740730272357b1b5e4fe5",
+        "size_in_bytes": 588
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/__pycache__/launchnotebook.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "66a6d6f6693b920718f3e224ac12dde709b2640fca12343c3570120e345ebe99",
+        "sha256_in_prefix": "66a6d6f6693b920718f3e224ac12dde709b2640fca12343c3570120e345ebe99",
+        "size_in_bytes": 7983
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/__pycache__/test_config_manager.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "2d77e1af22de86e7e8814c4f438663270fda47d1eaa50f17c7d2bd6e7e4d60c3",
+        "sha256_in_prefix": "2d77e1af22de86e7e8814c4f438663270fda47d1eaa50f17c7d2bd6e7e4d60c3",
+        "size_in_bytes": 1502
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/__pycache__/test_files.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "0e33ed34c502894312239d38ddd96fa539501be08dac342b1dc469949409a350",
+        "sha256_in_prefix": "0e33ed34c502894312239d38ddd96fa539501be08dac342b1dc469949409a350",
+        "size_in_bytes": 4820
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/__pycache__/test_gateway.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "bfefb090f8aa5f5db266cc374072196699f632e457bfa2cdd94b254726c30bc2",
+        "sha256_in_prefix": "bfefb090f8aa5f5db266cc374072196699f632e457bfa2cdd94b254726c30bc2",
+        "size_in_bytes": 10269
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/__pycache__/test_i18n.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "1ba512c5cf60cd795ac02d5ccb1e6f3b7bce09c9b710aef98c3e8d8c7d81b8f2",
+        "sha256_in_prefix": "1ba512c5cf60cd795ac02d5ccb1e6f3b7bce09c9b710aef98c3e8d8c7d81b8f2",
+        "size_in_bytes": 465
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/__pycache__/test_log.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "1cdc07ca3e843559dce05311bf86c776625fe3a194c3b6ec35a0b3221a108a93",
+        "sha256_in_prefix": "1cdc07ca3e843559dce05311bf86c776625fe3a194c3b6ec35a0b3221a108a93",
+        "size_in_bytes": 1272
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/__pycache__/test_nbextensions.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "1b3e8315edebd198d787a4abd97df945985a3c2109876cece3db261437daa313",
+        "sha256_in_prefix": "1b3e8315edebd198d787a4abd97df945985a3c2109876cece3db261437daa313",
+        "size_in_bytes": 18397
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/__pycache__/test_notebookapp.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "3d5342d32799ff182c83a48f02c15c6531be33e2a6ffe1706c3741fd9bb8c912",
+        "sha256_in_prefix": "3d5342d32799ff182c83a48f02c15c6531be33e2a6ffe1706c3741fd9bb8c912",
+        "size_in_bytes": 9702
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/__pycache__/test_notebookapp_integration.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "f4e4758912c031e16f3be32baf27ad9023e71f5028de9f8bd440ca25d5312050",
+        "sha256_in_prefix": "f4e4758912c031e16f3be32baf27ad9023e71f5028de9f8bd440ca25d5312050",
+        "size_in_bytes": 4006
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/__pycache__/test_paths.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "a3d7c14f0b5a22fc8e39cf09563e407fe8b68a3098b0f186c3ecd1fdbee4cdf8",
+        "sha256_in_prefix": "a3d7c14f0b5a22fc8e39cf09563e407fe8b68a3098b0f186c3ecd1fdbee4cdf8",
+        "size_in_bytes": 1496
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/__pycache__/test_serialize.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "da07e3ef269aae63b4296813c0a1e0fb6268f4224afd19b68266bd57694f951e",
+        "sha256_in_prefix": "da07e3ef269aae63b4296813c0a1e0fb6268f4224afd19b68266bd57694f951e",
+        "size_in_bytes": 1239
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/__pycache__/test_serverextensions.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "1a856fe27289de683b30c6ea47b230dd204d33308b20fe492b092b998bc098a2",
+        "sha256_in_prefix": "1a856fe27289de683b30c6ea47b230dd204d33308b20fe492b092b998bc098a2",
+        "size_in_bytes": 6510
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/__pycache__/test_traittypes.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "f0e0163173dff5e98ff3600c513bb76dd83051d4000760609bf13a06edb534d3",
+        "sha256_in_prefix": "f0e0163173dff5e98ff3600c513bb76dd83051d4000760609bf13a06edb534d3",
+        "size_in_bytes": 2469
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/__pycache__/test_utils.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "0b6ee579d929060a8c875c29b8857429d7b0ed4e07204a471cdd9d85ea98283a",
+        "sha256_in_prefix": "0b6ee579d929060a8c875c29b8857429d7b0ed4e07204a471cdd9d85ea98283a",
+        "size_in_bytes": 2521
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/conftest.py",
+        "path_type": "hardlink",
+        "sha256": "f85e307529f78606ba9dbacb7450871a44596bc6708711721c7fee0263310c22",
+        "sha256_in_prefix": "f85e307529f78606ba9dbacb7450871a44596bc6708711721c7fee0263310c22",
+        "size_in_bytes": 329
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/launchnotebook.py",
+        "path_type": "hardlink",
+        "sha256": "e9fbe5d06c6789e9af86d7ca2a13546b54c0942fbdf8ae34261bdd297fafc40b",
+        "sha256_in_prefix": "e9fbe5d06c6789e9af86d7ca2a13546b54c0942fbdf8ae34261bdd297fafc40b",
+        "size_in_bytes": 8654
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "e52b837d65cac0376cc48fff3304b9305be3a3f83c9c85c76004bf0b54abb829",
+        "sha256_in_prefix": "e52b837d65cac0376cc48fff3304b9305be3a3f83c9c85c76004bf0b54abb829",
+        "size_in_bytes": 146
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/__pycache__/conftest.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "480851ae9c959dfd51b1940d7e223dbd2918a938d9823fe6eec03ae89f9b466b",
+        "sha256_in_prefix": "480851ae9c959dfd51b1940d7e223dbd2918a938d9823fe6eec03ae89f9b466b",
+        "size_in_bytes": 4588
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/__pycache__/quick_selenium.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "a49781d74789d1af760250377680170d54a8841f7156f0c4914f8d224fee198a",
+        "sha256_in_prefix": "a49781d74789d1af760250377680170d54a8841f7156f0c4914f8d224fee198a",
+        "size_in_bytes": 2037
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/__pycache__/test_buffering.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "1ae21bdf5fe7b2b1d4f68194378869d364d6edb32c51ae9d5a02d3082729b4b3",
+        "sha256_in_prefix": "1ae21bdf5fe7b2b1d4f68194378869d364d6edb32c51ae9d5a02d3082729b4b3",
+        "size_in_bytes": 1461
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/__pycache__/test_clipboard_multiselect.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "8bfabf6073d9576552b0060e853d522f4d67b51c683caf094df7bb6cfb601b4a",
+        "sha256_in_prefix": "8bfabf6073d9576552b0060e853d522f4d67b51c683caf094df7bb6cfb601b4a",
+        "size_in_bytes": 1291
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/__pycache__/test_dashboard_nav.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "7c95104cf9df71622ed3723e329e64b6d7a7f6ed7b657266d82a17aeca22e49c",
+        "sha256_in_prefix": "7c95104cf9df71622ed3723e329e64b6d7a7f6ed7b657266d82a17aeca22e49c",
+        "size_in_bytes": 2832
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/__pycache__/test_deletecell.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "a59b3884c379de4f3645e915fdb4b1a0a9e1570d464a4fb0adcda56090d6ce57",
+        "sha256_in_prefix": "a59b3884c379de4f3645e915fdb4b1a0a9e1570d464a4fb0adcda56090d6ce57",
+        "size_in_bytes": 1419
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/__pycache__/test_display_image.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "41cc54e583cf76cdd5c99098839cd5ebef8638410fa220da440c07e7897b2042",
+        "sha256_in_prefix": "41cc54e583cf76cdd5c99098839cd5ebef8638410fa220da440c07e7897b2042",
+        "size_in_bytes": 2662
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/__pycache__/test_display_isolation.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "dc0461ab2a0f31107e4dd5402922a644de2d0fcf2c23a741ad37e695826c1ff5",
+        "sha256_in_prefix": "dc0461ab2a0f31107e4dd5402922a644de2d0fcf2c23a741ad37e695826c1ff5",
+        "size_in_bytes": 3202
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/__pycache__/test_dualmode_arrows.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "d6452b0d95379504ea917829d2596bd7670c19d06e358ea00df360154b75879c",
+        "sha256_in_prefix": "d6452b0d95379504ea917829d2596bd7670c19d06e358ea00df360154b75879c",
+        "size_in_bytes": 2711
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/__pycache__/test_dualmode_cellmode.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "d4d55bf7da0a51d9d56621ea4aed4b33bf0e1a7fd2ebb8a460d37bbef5fa322d",
+        "sha256_in_prefix": "d4d55bf7da0a51d9d56621ea4aed4b33bf0e1a7fd2ebb8a460d37bbef5fa322d",
+        "size_in_bytes": 1541
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/__pycache__/test_dualmode_clipboard.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "3bfa3763178a925bcb9355e07320497b3e4d83f34690449989a2e3616479845b",
+        "sha256_in_prefix": "3bfa3763178a925bcb9355e07320497b3e4d83f34690449989a2e3616479845b",
+        "size_in_bytes": 1269
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/__pycache__/test_dualmode_execute.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "4df39c6b727767fec6d1c3789d79e117da5f382d6bd2b45951062c3db5d7bf49",
+        "sha256_in_prefix": "4df39c6b727767fec6d1c3789d79e117da5f382d6bd2b45951062c3db5d7bf49",
+        "size_in_bytes": 1358
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/__pycache__/test_dualmode_insertcell.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "34975223df52097ea5c9fc09cb793750a2e5add3e7da05990cff530358068f0a",
+        "sha256_in_prefix": "34975223df52097ea5c9fc09cb793750a2e5add3e7da05990cff530358068f0a",
+        "size_in_bytes": 1309
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/__pycache__/test_dualmode_markdown.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "fac57d1c3346aafb6425d07d99460f885dc061603a3f4de44a64153e2d428cad",
+        "sha256_in_prefix": "fac57d1c3346aafb6425d07d99460f885dc061603a3f4de44a64153e2d428cad",
+        "size_in_bytes": 1293
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/__pycache__/test_execute_code.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "2b59561df359217c902fccf312d41db4c359e5177dc06aa037512d1c26e46738",
+        "sha256_in_prefix": "2b59561df359217c902fccf312d41db4c359e5177dc06aa037512d1c26e46738",
+        "size_in_bytes": 1869
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/__pycache__/test_find_and_replace.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "8772dc250d58b8764b0c177ce6fae7830024c00cf9d5f7ef78668a4ae5584b5b",
+        "sha256_in_prefix": "8772dc250d58b8764b0c177ce6fae7830024c00cf9d5f7ef78668a4ae5584b5b",
+        "size_in_bytes": 741
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/__pycache__/test_interrupt.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "84a8e95b944285df2684bc71d38a4275a76356d41e8f5ba1786d82481e6f2ecf",
+        "sha256_in_prefix": "84a8e95b944285df2684bc71d38a4275a76356d41e8f5ba1786d82481e6f2ecf",
+        "size_in_bytes": 1563
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/__pycache__/test_kernel_menu.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "808a69553a9eeea24805e6989f57656e220e4307417585ca409bb7f95103a170",
+        "sha256_in_prefix": "808a69553a9eeea24805e6989f57656e220e4307417585ca409bb7f95103a170",
+        "size_in_bytes": 2017
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/__pycache__/test_markdown.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "c4258f83477260dcd6b4b42bd06edbeec002cfda92bc07442c8ce00617fcf4c0",
+        "sha256_in_prefix": "c4258f83477260dcd6b4b42bd06edbeec002cfda92bc07442c8ce00617fcf4c0",
+        "size_in_bytes": 2422
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/__pycache__/test_merge_cells.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "a762255cf5f1b8cae7755440a498d01050a897cdafdb8ab7b6dbdadb44d9a609",
+        "sha256_in_prefix": "a762255cf5f1b8cae7755440a498d01050a897cdafdb8ab7b6dbdadb44d9a609",
+        "size_in_bytes": 958
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/__pycache__/test_move_multiselection.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "17e37443c4c0c50feb42a1c7c502be78bbc7dd8612b6a361055cc383273eba5d",
+        "sha256_in_prefix": "17e37443c4c0c50feb42a1c7c502be78bbc7dd8612b6a361055cc383273eba5d",
+        "size_in_bytes": 1123
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/__pycache__/test_multiselect.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "be85053c8489b93da6b833eb6f7ed0d9828c324f60a650aa9e7848c928a6ba01",
+        "sha256_in_prefix": "be85053c8489b93da6b833eb6f7ed0d9828c324f60a650aa9e7848c928a6ba01",
+        "size_in_bytes": 1697
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/__pycache__/test_multiselect_toggle.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "0b9080643bd059ab293d012c17251ca8d19bc76b01beca0029ef9e7b477357cc",
+        "sha256_in_prefix": "0b9080643bd059ab293d012c17251ca8d19bc76b01beca0029ef9e7b477357cc",
+        "size_in_bytes": 1900
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/__pycache__/test_notifications.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "dcc731d3f205126724ad6bed6e6d0bb45062015a01d7377ca635072ce0f7ba42",
+        "sha256_in_prefix": "dcc731d3f205126724ad6bed6e6d0bb45062015a01d7377ca635072ce0f7ba42",
+        "size_in_bytes": 3082
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/__pycache__/test_prompt_numbers.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "223a3504c159e529d277505a077ce30342b5f3205a6462cf98193b5055cdf205",
+        "sha256_in_prefix": "223a3504c159e529d277505a077ce30342b5f3205a6462cf98193b5055cdf205",
+        "size_in_bytes": 1120
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/__pycache__/test_save.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "0d8e06833e81b347bac1ea633cccd6ce30259b1daad0bd09380a8b7f85515234",
+        "sha256_in_prefix": "0d8e06833e81b347bac1ea633cccd6ce30259b1daad0bd09380a8b7f85515234",
+        "size_in_bytes": 1923
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/__pycache__/test_save_as_notebook.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "cd1532a779a4bc852bd7e87d7a08a857221c572f1f5cc1591b58323b5b98d837",
+        "sha256_in_prefix": "cd1532a779a4bc852bd7e87d7a08a857221c572f1f5cc1591b58323b5b98d837",
+        "size_in_bytes": 1852
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/__pycache__/test_save_readonly_as.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "578f1b62d4142be910fe48d28e968adb6be5f31ded6d6ee4123b2683b5da2170",
+        "sha256_in_prefix": "578f1b62d4142be910fe48d28e968adb6be5f31ded6d6ee4123b2683b5da2170",
+        "size_in_bytes": 1727
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/__pycache__/test_shutdown.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "c8e86a92905b2968fd6451c3af7f52d7bb91e60e8b9001dc30988449858abb4f",
+        "sha256_in_prefix": "c8e86a92905b2968fd6451c3af7f52d7bb91e60e8b9001dc30988449858abb4f",
+        "size_in_bytes": 776
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/__pycache__/test_undelete.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "b5b286c5ff77eb36bb2b7eb0dd543a0ac3429a96c1a241263995814cb784fcc1",
+        "sha256_in_prefix": "b5b286c5ff77eb36bb2b7eb0dd543a0ac3429a96c1a241263995814cb784fcc1",
+        "size_in_bytes": 1859
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/__pycache__/utils.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "f9e77452d5585237cb735255adb0dde122ff1ee8a7c260827f3464c921a87cc0",
+        "sha256_in_prefix": "f9e77452d5585237cb735255adb0dde122ff1ee8a7c260827f3464c921a87cc0",
+        "size_in_bytes": 18716
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/conftest.py",
+        "path_type": "hardlink",
+        "sha256": "fd380f6cc84498843d694a24296d41f5c8a0762ee48df21687fcd86ec980047e",
+        "sha256_in_prefix": "fd380f6cc84498843d694a24296d41f5c8a0762ee48df21687fcd86ec980047e",
+        "size_in_bytes": 4882
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/quick_selenium.py",
+        "path_type": "hardlink",
+        "sha256": "b166d7be63c791a8b1ca874bdeb415a9d8985f85938675719d28986003c50df8",
+        "sha256_in_prefix": "b166d7be63c791a8b1ca874bdeb415a9d8985f85938675719d28986003c50df8",
+        "size_in_bytes": 1714
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/test_buffering.py",
+        "path_type": "hardlink",
+        "sha256": "ff695e449f5a5b74b057d0006287e123f30ab05ff17d9d10084315c27cf50084",
+        "sha256_in_prefix": "ff695e449f5a5b74b057d0006287e123f30ab05ff17d9d10084315c27cf50084",
+        "size_in_bytes": 1675
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/test_clipboard_multiselect.py",
+        "path_type": "hardlink",
+        "sha256": "84d3b5e782f509ee600aac261f261327d7b162c630d3f5c1863c8b4b9d4b0cfd",
+        "sha256_in_prefix": "84d3b5e782f509ee600aac261f261327d7b162c630d3f5c1863c8b4b9d4b0cfd",
+        "size_in_bytes": 1270
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/test_dashboard_nav.py",
+        "path_type": "hardlink",
+        "sha256": "19fe1ce1a214e41c1cce6626b82d017f2e79d0a4f64d0df46bdc4a326245ce29",
+        "sha256_in_prefix": "19fe1ce1a214e41c1cce6626b82d017f2e79d0a4f64d0df46bdc4a326245ce29",
+        "size_in_bytes": 2441
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/test_deletecell.py",
+        "path_type": "hardlink",
+        "sha256": "d5346529910af9b8601259ca51397bbe88067bdc16ceae6fd32077f51fa8d2fc",
+        "sha256_in_prefix": "d5346529910af9b8601259ca51397bbe88067bdc16ceae6fd32077f51fa8d2fc",
+        "size_in_bytes": 2021
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/test_display_image.py",
+        "path_type": "hardlink",
+        "sha256": "600669e71aac8fa95c2be81e358cb1bc2a326d32ffafb89c26d7eabc013931d0",
+        "sha256_in_prefix": "600669e71aac8fa95c2be81e358cb1bc2a326d32ffafb89c26d7eabc013931d0",
+        "size_in_bytes": 2847
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/test_display_isolation.py",
+        "path_type": "hardlink",
+        "sha256": "3ff7607f2150f0857c6a8b58f2532259bc97ce475e0820c38c52da94a1b716fd",
+        "sha256_in_prefix": "3ff7607f2150f0857c6a8b58f2532259bc97ce475e0820c38c52da94a1b716fd",
+        "size_in_bytes": 4024
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/test_dualmode_arrows.py",
+        "path_type": "hardlink",
+        "sha256": "0f67b3970ddcc66fc6e1dae3c1d3a79563ae050f5de62526e278317b5de05cdc",
+        "sha256_in_prefix": "0f67b3970ddcc66fc6e1dae3c1d3a79563ae050f5de62526e278317b5de05cdc",
+        "size_in_bytes": 4564
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/test_dualmode_cellmode.py",
+        "path_type": "hardlink",
+        "sha256": "5bfc165611a34066c323ad317780f76d1e6b031a2825229343da0ef695f75428",
+        "sha256_in_prefix": "5bfc165611a34066c323ad317780f76d1e6b031a2825229343da0ef695f75428",
+        "size_in_bytes": 2106
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/test_dualmode_clipboard.py",
+        "path_type": "hardlink",
+        "sha256": "4dca907005dcfabd0a20b7e1bdab53f94bf343f71d042391b56b326840fed303",
+        "sha256_in_prefix": "4dca907005dcfabd0a20b7e1bdab53f94bf343f71d042391b56b326840fed303",
+        "size_in_bytes": 2136
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/test_dualmode_execute.py",
+        "path_type": "hardlink",
+        "sha256": "047e3a903891f8876bdc02e0dfd7eb220e039ae973b978bfa23011b93a23b524",
+        "sha256_in_prefix": "047e3a903891f8876bdc02e0dfd7eb220e039ae973b978bfa23011b93a23b524",
+        "size_in_bytes": 2694
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/test_dualmode_insertcell.py",
+        "path_type": "hardlink",
+        "sha256": "14b229cb9d91f94a26179c0457136dd5e35055b4134636bc37d32b1ee6a81b84",
+        "sha256_in_prefix": "14b229cb9d91f94a26179c0457136dd5e35055b4134636bc37d32b1ee6a81b84",
+        "size_in_bytes": 1801
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/test_dualmode_markdown.py",
+        "path_type": "hardlink",
+        "sha256": "7c7ab9fe336945453bf9b9a956f371ef1f80b62e96e2b19f51393a39be7d9b77",
+        "sha256_in_prefix": "7c7ab9fe336945453bf9b9a956f371ef1f80b62e96e2b19f51393a39be7d9b77",
+        "size_in_bytes": 1874
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/test_execute_code.py",
+        "path_type": "hardlink",
+        "sha256": "9446c6eaa24ce8e4f97e71107ee3aac9f80757f53f6bf3a7d6f6d8e6213d2506",
+        "sha256_in_prefix": "9446c6eaa24ce8e4f97e71107ee3aac9f80757f53f6bf3a7d6f6d8e6213d2506",
+        "size_in_bytes": 2302
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/test_find_and_replace.py",
+        "path_type": "hardlink",
+        "sha256": "89496427fed12dfc1c77ceae3895f921d291e016dc4214daebad5075cef0c77a",
+        "sha256_in_prefix": "89496427fed12dfc1c77ceae3895f921d291e016dc4214daebad5075cef0c77a",
+        "size_in_bytes": 506
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/test_interrupt.py",
+        "path_type": "hardlink",
+        "sha256": "f11de130575ba718a7ac6db74ce1afd7eddded916ed19a7103607d2c6d1fa5b4",
+        "sha256_in_prefix": "f11de130575ba718a7ac6db74ce1afd7eddded916ed19a7103607d2c6d1fa5b4",
+        "size_in_bytes": 1411
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/test_kernel_menu.py",
+        "path_type": "hardlink",
+        "sha256": "c17b7756f56767afe38894787268b3df13d56fff9b4c594270cdce582ba89f63",
+        "sha256_in_prefix": "c17b7756f56767afe38894787268b3df13d56fff9b4c594270cdce582ba89f63",
+        "size_in_bytes": 2251
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/test_markdown.py",
+        "path_type": "hardlink",
+        "sha256": "87734086d1da1b6ce7ddadc4858c977aa0dd646e52e9348b10ba7ca7669656ca",
+        "sha256_in_prefix": "87734086d1da1b6ce7ddadc4858c977aa0dd646e52e9348b10ba7ca7669656ca",
+        "size_in_bytes": 1755
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/test_merge_cells.py",
+        "path_type": "hardlink",
+        "sha256": "52fc76acbc566fa7cfdf2ae957c1bdb47ca869e43788ae8bece99f08c10dfb74",
+        "sha256_in_prefix": "52fc76acbc566fa7cfdf2ae957c1bdb47ca869e43788ae8bece99f08c10dfb74",
+        "size_in_bytes": 1237
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/test_move_multiselection.py",
+        "path_type": "hardlink",
+        "sha256": "c3e34f1d4e910a42629a3391cf1c0dc8398ae25427b6e20f01c3c9880d031ff0",
+        "sha256_in_prefix": "c3e34f1d4e910a42629a3391cf1c0dc8398ae25427b6e20f01c3c9880d031ff0",
+        "size_in_bytes": 1753
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/test_multiselect.py",
+        "path_type": "hardlink",
+        "sha256": "40e5e03ef4b8cda1c82ec1b4354da8df923f9be2a53c695c50a3b5ac104f2da1",
+        "sha256_in_prefix": "40e5e03ef4b8cda1c82ec1b4354da8df923f9be2a53c695c50a3b5ac104f2da1",
+        "size_in_bytes": 2385
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/test_multiselect_toggle.py",
+        "path_type": "hardlink",
+        "sha256": "d55a96769b51959e9b89fcfde54875a86b9c1949888f060f78e30bcbe3672ac8",
+        "sha256_in_prefix": "d55a96769b51959e9b89fcfde54875a86b9c1949888f060f78e30bcbe3672ac8",
+        "size_in_bytes": 2066
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/test_notifications.py",
+        "path_type": "hardlink",
+        "sha256": "4f78ca4f719c448d5dcbce9b184b8e6fff27476b24538dfbab3794416bce46ac",
+        "sha256_in_prefix": "4f78ca4f719c448d5dcbce9b184b8e6fff27476b24538dfbab3794416bce46ac",
+        "size_in_bytes": 3731
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/test_prompt_numbers.py",
+        "path_type": "hardlink",
+        "sha256": "0811444296f2152dad02d338bed6e91309559f9117370eaa0e529172cf774b3a",
+        "sha256_in_prefix": "0811444296f2152dad02d338bed6e91309559f9117370eaa0e529172cf774b3a",
+        "size_in_bytes": 884
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/test_save.py",
+        "path_type": "hardlink",
+        "sha256": "56b7586cff82a80020595e1d3c28fb71e8e4b445f693f2b589914d543d072681",
+        "sha256_in_prefix": "56b7586cff82a80020595e1d3c28fb71e8e4b445f693f2b589914d543d072681",
+        "size_in_bytes": 2345
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/test_save_as_notebook.py",
+        "path_type": "hardlink",
+        "sha256": "87d4f3f3ff9daec82d30f9bcdd8e07f084f73639f549845aa8f128df2023b4ef",
+        "sha256_in_prefix": "87d4f3f3ff9daec82d30f9bcdd8e07f084f73639f549845aa8f128df2023b4ef",
+        "size_in_bytes": 1672
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/test_save_readonly_as.py",
+        "path_type": "hardlink",
+        "sha256": "a6b96efa1881856b754f764da1f70070556e836e461715befbffe217699b2129",
+        "sha256_in_prefix": "a6b96efa1881856b754f764da1f70070556e836e461715befbffe217699b2129",
+        "size_in_bytes": 3339
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/test_shutdown.py",
+        "path_type": "hardlink",
+        "sha256": "5e4591644bb169e58a08fad2f25c542722d2968bf731fa15491d3643653cbf51",
+        "sha256_in_prefix": "5e4591644bb169e58a08fad2f25c542722d2968bf731fa15491d3643653cbf51",
+        "size_in_bytes": 722
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/test_undelete.py",
+        "path_type": "hardlink",
+        "sha256": "f5482d69b5d6ffffc7b000c7493fd1209be73f5d91bb99ea63358d6bf5a9bebc",
+        "sha256_in_prefix": "f5482d69b5d6ffffc7b000c7493fd1209be73f5d91bb99ea63358d6bf5a9bebc",
+        "size_in_bytes": 3110
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/selenium/utils.py",
+        "path_type": "hardlink",
+        "sha256": "46550302967e56eafc4e277596df84160b2a229afd3fbaec48329b212d99cf5f",
+        "sha256_in_prefix": "46550302967e56eafc4e277596df84160b2a229afd3fbaec48329b212d99cf5f",
+        "size_in_bytes": 17851
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/test_config_manager.py",
+        "path_type": "hardlink",
+        "sha256": "bd1d4097082bbc63f0e1473cb7c78d0d721476447cb883f5ae935f9e07a0bfbf",
+        "sha256_in_prefix": "bd1d4097082bbc63f0e1473cb7c78d0d721476447cb883f5ae935f9e07a0bfbf",
+        "size_in_bytes": 2042
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/test_files.py",
+        "path_type": "hardlink",
+        "sha256": "751b272eb928f0afa0bd82deb4c06327ad2bf34d558e419c2e6e0b0dd5fe7d41",
+        "sha256_in_prefix": "751b272eb928f0afa0bd82deb4c06327ad2bf34d558e419c2e6e0b0dd5fe7d41",
+        "size_in_bytes": 6079
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/test_gateway.py",
+        "path_type": "hardlink",
+        "sha256": "cc43912dff06564e382b5cb3c4ca6e073c2866e063573aa388e06aa646b8e178",
+        "sha256_in_prefix": "cc43912dff06564e382b5cb3c4ca6e073c2866e063573aa388e06aa646b8e178",
+        "size_in_bytes": 14719
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/test_i18n.py",
+        "path_type": "hardlink",
+        "sha256": "c9fffaf244da1eb611b5bdb16e3460301b7b9b78e02e2db8a08cb5a26fea8919",
+        "sha256_in_prefix": "c9fffaf244da1eb611b5bdb16e3460301b7b9b78e02e2db8a08cb5a26fea8919",
+        "size_in_bytes": 250
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/test_log.py",
+        "path_type": "hardlink",
+        "sha256": "5c690f57783f83965097aef27ba4af6c4978fc735092dcc272ab023a510e6cc0",
+        "sha256_in_prefix": "5c690f57783f83965097aef27ba4af6c4978fc735092dcc272ab023a510e6cc0",
+        "size_in_bytes": 1398
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/test_nbextensions.py",
+        "path_type": "hardlink",
+        "sha256": "4b2e998a8045830ac8b80a517409c0b749edf5c4528da9f59dda59feef14a939",
+        "sha256_in_prefix": "4b2e998a8045830ac8b80a517409c0b749edf5c4528da9f59dda59feef14a939",
+        "size_in_bytes": 18784
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/test_notebookapp.py",
+        "path_type": "hardlink",
+        "sha256": "02f7be0a2ab65f71db3e34a5c27da00da3e773fc9dce45db907eef0e9a9415bc",
+        "sha256_in_prefix": "02f7be0a2ab65f71db3e34a5c27da00da3e773fc9dce45db907eef0e9a9415bc",
+        "size_in_bytes": 7253
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/test_notebookapp_integration.py",
+        "path_type": "hardlink",
+        "sha256": "a1096826a5ea8f859c4bd113d7ec53bbe96e82ec678d62a5e38900b6dd633de7",
+        "sha256_in_prefix": "a1096826a5ea8f859c4bd113d7ec53bbe96e82ec678d62a5e38900b6dd633de7",
+        "size_in_bytes": 5210
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/test_paths.py",
+        "path_type": "hardlink",
+        "sha256": "f2a3932e3b39bcbf281960ca995aacf8e5b11ccde410e2b18b9e950b6a2515e1",
+        "sha256_in_prefix": "f2a3932e3b39bcbf281960ca995aacf8e5b11ccde410e2b18b9e950b6a2515e1",
+        "size_in_bytes": 1288
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/test_serialize.py",
+        "path_type": "hardlink",
+        "sha256": "2280c7463208d8aee97c338c97539b54074cc5e4a0f5ec0ee3e863bb21e49f97",
+        "sha256_in_prefix": "2280c7463208d8aee97c338c97539b54074cc5e4a0f5ec0ee3e863bb21e49f97",
+        "size_in_bytes": 723
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/test_serverextensions.py",
+        "path_type": "hardlink",
+        "sha256": "2db5d9b70d53f55fee0cf764669f8b63f03911174d47aaeadbf57e3957ebf644",
+        "sha256_in_prefix": "2db5d9b70d53f55fee0cf764669f8b63f03911174d47aaeadbf57e3957ebf644",
+        "size_in_bytes": 6755
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/test_traittypes.py",
+        "path_type": "hardlink",
+        "sha256": "37bf56ccacb105e6c415c9886882dd63828148209ae6f8fc6f521c7a6ca87baf",
+        "sha256_in_prefix": "37bf56ccacb105e6c415c9886882dd63828148209ae6f8fc6f521c7a6ca87baf",
+        "size_in_bytes": 1774
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tests/test_utils.py",
+        "path_type": "hardlink",
+        "sha256": "8e6add72390c8a3abf4b8dc3c50d73dcdb9e80ce54536aadc8c5bf633e420566",
+        "sha256_in_prefix": "8e6add72390c8a3abf4b8dc3c50d73dcdb9e80ce54536aadc8c5bf633e420566",
+        "size_in_bytes": 3335
+      },
+      {
+        "_path": "Lib/site-packages/notebook/traittypes.py",
+        "path_type": "hardlink",
+        "sha256": "038dd4e2099d4af3fa541284b739d340507bdcc466544b3b826ae954cae5378e",
+        "sha256_in_prefix": "038dd4e2099d4af3fa541284b739d340507bdcc466544b3b826ae954cae5378e",
+        "size_in_bytes": 13934
+      },
+      {
+        "_path": "Lib/site-packages/notebook/transutils.py",
+        "path_type": "hardlink",
+        "sha256": "5a555a54545b4e2622d971b9cd85058cb10c6a6874ab7f51e7e79842bc593f67",
+        "sha256_in_prefix": "5a555a54545b4e2622d971b9cd85058cb10c6a6874ab7f51e7e79842bc593f67",
+        "size_in_bytes": 424
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tree/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tree/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "3fa1b2c0c6220b6f7ea3a0c7e219628cd18afc3d584b8a3fe40359fbd9f66ec8",
+        "sha256_in_prefix": "3fa1b2c0c6220b6f7ea3a0c7e219628cd18afc3d584b8a3fe40359fbd9f66ec8",
+        "size_in_bytes": 136
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tree/__pycache__/handlers.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "6cacc3f0083b7a964b31d152395bce7d12abc7eff0726156fe7a278b1c49b366",
+        "sha256_in_prefix": "6cacc3f0083b7a964b31d152395bce7d12abc7eff0726156fe7a278b1c49b366",
+        "size_in_bytes": 2292
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tree/handlers.py",
+        "path_type": "hardlink",
+        "sha256": "ec314d59c997398f713dd3be1268086b9d4de7341977d546980c2d682053392e",
+        "sha256_in_prefix": "ec314d59c997398f713dd3be1268086b9d4de7341977d546980c2d682053392e",
+        "size_in_bytes": 2856
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tree/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tree/tests/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "f1ffb629708c7d7b5574f9af6b2475803091274ff9c081a43019d63737a1b5f5",
+        "sha256_in_prefix": "f1ffb629708c7d7b5574f9af6b2475803091274ff9c081a43019d63737a1b5f5",
+        "size_in_bytes": 142
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tree/tests/__pycache__/handlers.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "72146aa5411444f9fbac5248f36fef9348568b57dda3149658a31791ee9e16d4",
+        "sha256_in_prefix": "72146aa5411444f9fbac5248f36fef9348568b57dda3149658a31791ee9e16d4",
+        "size_in_bytes": 2227
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tree/tests/__pycache__/test_tree_handler.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "e2c895e400a249806f9879102654993581e16e2066a785f35910cac39dd02e0f",
+        "sha256_in_prefix": "e2c895e400a249806f9879102654993581e16e2066a785f35910cac39dd02e0f",
+        "size_in_bytes": 1510
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tree/tests/handlers.py",
+        "path_type": "hardlink",
+        "sha256": "4fff900fb0ef7837d04c564b0c86bda22e4c0c6afa30ddc336288eff963ce7dc",
+        "sha256_in_prefix": "4fff900fb0ef7837d04c564b0c86bda22e4c0c6afa30ddc336288eff963ce7dc",
+        "size_in_bytes": 2745
+      },
+      {
+        "_path": "Lib/site-packages/notebook/tree/tests/test_tree_handler.py",
+        "path_type": "hardlink",
+        "sha256": "a69d50673ee7799e29c0e2c98d595abd158f179a58ad1a362d53152aedfeb84f",
+        "sha256_in_prefix": "a69d50673ee7799e29c0e2c98d595abd158f179a58ad1a362d53152aedfeb84f",
+        "size_in_bytes": 1078
+      },
+      {
+        "_path": "Lib/site-packages/notebook/utils.py",
+        "path_type": "hardlink",
+        "sha256": "238cf66b569fc0b22cffb3cedf0c3f5961ce0ab636bd2784883d6f0fbd939a34",
+        "sha256_in_prefix": "238cf66b569fc0b22cffb3cedf0c3f5961ce0ab636bd2784883d6f0fbd939a34",
+        "size_in_bytes": 12173
+      },
+      {
+        "_path": "Lib/site-packages/notebook/view/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/notebook/view/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "3351cf69432e4330a84dac311bfa2fabd7e95aeef97f6e09e87f9f53db69f1f7",
+        "sha256_in_prefix": "3351cf69432e4330a84dac311bfa2fabd7e95aeef97f6e09e87f9f53db69f1f7",
+        "size_in_bytes": 136
+      },
+      {
+        "_path": "Lib/site-packages/notebook/view/__pycache__/handlers.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "aafc61f1b40dbc14565ec427da64ed9a76893babfe0ab5546e4146af712cc1ef",
+        "sha256_in_prefix": "aafc61f1b40dbc14565ec427da64ed9a76893babfe0ab5546e4146af712cc1ef",
+        "size_in_bytes": 1081
+      },
+      {
+        "_path": "Lib/site-packages/notebook/view/handlers.py",
+        "path_type": "hardlink",
+        "sha256": "68ccd6a7a2183d93929bd67a2596e0612b367db10dceab8ee8fecc89d30953dc",
+        "sha256_in_prefix": "68ccd6a7a2183d93929bd67a2596e0612b367db10dceab8ee8fecc89d30953dc",
+        "size_in_bytes": 862
+      },
+      {
+        "_path": "Menu/jupyter.ico",
+        "path_type": "hardlink",
+        "sha256": "0e1780e81b22a4c119c0ca2f08cf5e10c0a1261bd343cf3dbe7d3684e67c6fa3",
+        "sha256_in_prefix": "0e1780e81b22a4c119c0ca2f08cf5e10c0a1261bd343cf3dbe7d3684e67c6fa3",
+        "size_in_bytes": 6587
+      },
+      {
+        "_path": "Menu/notebook.json",
+        "path_type": "hardlink",
+        "sha256": "3db30562b7fe8c4dcaac2b7ff173991dcb5ffb0ae393cb7f7e9c3ea02419f410",
+        "sha256_in_prefix": "3db30562b7fe8c4dcaac2b7ff173991dcb5ffb0ae393cb7f7e9c3ea02419f410",
+        "size_in_bytes": 266
+      },
+      {
+        "_path": "Scripts/jupyter-bundlerextension-script.py",
+        "path_type": "hardlink",
+        "sha256": "e4ea33267e907f8695d9b3845bae3356d24c1c2daaa299fde0c1bc263322a674",
+        "sha256_in_prefix": "e4ea33267e907f8695d9b3845bae3356d24c1c2daaa299fde0c1bc263322a674",
+        "size_in_bytes": 228
+      },
+      {
+        "_path": "Scripts/jupyter-bundlerextension.exe",
+        "path_type": "hardlink",
+        "sha256": "5ea569f2b5bc9c273351641a1a3c52821ce2a9370bc8202f0247c793ebd8a618",
+        "sha256_in_prefix": "5ea569f2b5bc9c273351641a1a3c52821ce2a9370bc8202f0247c793ebd8a618",
+        "size_in_bytes": 41984
+      },
+      {
+        "_path": "Scripts/jupyter-nbextension-script.py",
+        "path_type": "hardlink",
+        "sha256": "6be2158cf15bc45f6be1a6787fd17738bbff013469885db91b7c778fb1e8625f",
+        "sha256_in_prefix": "6be2158cf15bc45f6be1a6787fd17738bbff013469885db91b7c778fb1e8625f",
+        "size_in_bytes": 215
+      },
+      {
+        "_path": "Scripts/jupyter-nbextension.exe",
+        "path_type": "hardlink",
+        "sha256": "5ea569f2b5bc9c273351641a1a3c52821ce2a9370bc8202f0247c793ebd8a618",
+        "sha256_in_prefix": "5ea569f2b5bc9c273351641a1a3c52821ce2a9370bc8202f0247c793ebd8a618",
+        "size_in_bytes": 41984
+      },
+      {
+        "_path": "Scripts/jupyter-notebook-script.py",
+        "path_type": "hardlink",
+        "sha256": "389e5e099db1e8aafde9bbeb7b4e7ba6c98515a8fb1b3e40c225ba646f3444d5",
+        "sha256_in_prefix": "389e5e099db1e8aafde9bbeb7b4e7ba6c98515a8fb1b3e40c225ba646f3444d5",
+        "size_in_bytes": 214
+      },
+      {
+        "_path": "Scripts/jupyter-notebook.exe",
+        "path_type": "hardlink",
+        "sha256": "5ea569f2b5bc9c273351641a1a3c52821ce2a9370bc8202f0247c793ebd8a618",
+        "sha256_in_prefix": "5ea569f2b5bc9c273351641a1a3c52821ce2a9370bc8202f0247c793ebd8a618",
+        "size_in_bytes": 41984
+      },
+      {
+        "_path": "Scripts/jupyter-serverextension-script.py",
+        "path_type": "hardlink",
+        "sha256": "22bb1d992f96f3b29595f07528aad8c9ceed36cb1b668ed5c4557beffaa1443c",
+        "sha256_in_prefix": "22bb1d992f96f3b29595f07528aad8c9ceed36cb1b668ed5c4557beffaa1443c",
+        "size_in_bytes": 219
+      },
+      {
+        "_path": "Scripts/jupyter-serverextension.exe",
+        "path_type": "hardlink",
+        "sha256": "5ea569f2b5bc9c273351641a1a3c52821ce2a9370bc8202f0247c793ebd8a618",
+        "sha256_in_prefix": "5ea569f2b5bc9c273351641a1a3c52821ce2a9370bc8202f0247c793ebd8a618",
+        "size_in_bytes": 41984
+      },
+      {
+        "_path": "share/applications/jupyter-notebook.desktop",
+        "path_type": "hardlink",
+        "sha256": "d53df63b520447ce421aff9ae88c620dfad033c6f368b59b96d26ef93a05f2b7",
+        "sha256_in_prefix": "d53df63b520447ce421aff9ae88c620dfad033c6f368b59b96d26ef93a05f2b7",
+        "size_in_bytes": 242
+      },
+      {
+        "_path": "share/icons/hicolor/scalable/apps/notebook.svg",
+        "path_type": "hardlink",
+        "sha256": "11341851556c107ffe46121d18e571b454a19e58bfd312acd3afb4af3812e701",
+        "sha256_in_prefix": "11341851556c107ffe46121d18e571b454a19e58bfd312acd3afb4af3812e701",
+        "size_in_bytes": 14487
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "3baa4a0ac2ae83309c6aa2f44b21bdf9661a5ee6cfad4e77c22dc049c90bf09a",
+  "size": 554718,
+  "subdir": "win-64",
+  "timestamp": 1668180034458,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/notebook-6.5.2-py310haa95532_0.conda",
+  "version": "6.5.2"
+}
